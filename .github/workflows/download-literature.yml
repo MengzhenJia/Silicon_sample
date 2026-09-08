@@ -1,0 +1,49 @@
+name: Download literature PDFs
+
+on:
+  push:
+    branches:
+      - chatgpt-download-literature-20260908
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Download all publicly accessible PDFs
+        run: python scripts/download_all_literature.py
+
+      - name: Show summary
+        if: always()
+        run: |
+          test -f literature_downloads/README.txt && cat literature_downloads/README.txt || true
+          test -f literature_downloads/download_manifest.csv && wc -l literature_downloads/download_manifest.csv || true
+          test -d literature_downloads/papers && find literature_downloads/papers -type f -name '*.pdf' | wc -l || true
+
+      - name: Upload literature bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026
+          path: literature_downloads/
+          if-no-files-found: warn
+          retention-days: 7
+          compression-level: 6
