@@ -25,33 +25,100 @@ jobs:
         continue-on-error: true
         run: python scripts/download_arxiv_literature.py
 
-      - name: Build ZIP package
+      - name: Split downloaded PDFs by year
         if: always()
         run: |
-          cd downloaded_literature
-          zip -q -r ../arxiv_literature.zip .
-          cd ..
           python - <<'PY'
           import csv
+          import os
+          import shutil
           from pathlib import Path
-          manifest = Path('downloaded_literature/manifest.csv')
-          failed = Path('downloaded_literature/failed.csv')
+
+          root = Path('downloaded_literature')
+          out = Path('year_packages')
+          manifest = root / 'manifest.csv'
+          failed = root / 'failed.csv'
           rows = list(csv.DictReader(manifest.open(encoding='utf-8'))) if manifest.exists() else []
           bad = list(csv.DictReader(failed.open(encoding='utf-8'))) if failed.exists() else []
+          if not rows:
+              raise SystemExit('manifest.csv is empty or missing')
+
+          fields = list(rows[0].keys())
+          by_year = {}
+          for row in rows:
+              year = row.get('year') or 'unknown'
+              by_year.setdefault(year, []).append(row)
+
+          for year, subset in sorted(by_year.items()):
+              ydir = out / year
+              pdfdir = ydir / 'pdfs'
+              pdfdir.mkdir(parents=True, exist_ok=True)
+              for row in subset:
+                  rel = row.get('local_file') or ''
+                  if not rel:
+                      continue
+                  src = root / rel
+                  dst = pdfdir / src.name
+                  if not src.exists():
+                      continue
+                  try:
+                      os.link(src, dst)
+                  except OSError:
+                      shutil.copy2(src, dst)
+              with (ydir / 'manifest.csv').open('w', encoding='utf-8', newline='') as f:
+                  w = csv.DictWriter(f, fieldnames=fields)
+                  w.writeheader()
+                  w.writerows(subset)
+
           ok = sum(r.get('status') == 'ok' for r in rows)
           print(f'Total unique records: {len(rows)}')
           print(f'Downloaded PDFs: {ok}')
           print(f'Failures: {len(bad)}')
+          for year in sorted(by_year):
+              print(f'{year}: {len(by_year[year])} records')
           PY
 
-      - name: Upload literature package
+      - name: Upload 2022 package
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: arxiv-literature-all
-          path: |
-            arxiv_literature.zip
-            downloaded_literature/manifest.csv
-            downloaded_literature/failed.csv
+          name: arxiv-literature-2022
+          path: year_packages/2022
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2023 package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2023
+          path: year_packages/2023
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2024 package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2024
+          path: year_packages/2024
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2025 package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2025
+          path: year_packages/2025
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2026 package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2026
+          path: year_packages/2026
           if-no-files-found: error
           retention-days: 7
