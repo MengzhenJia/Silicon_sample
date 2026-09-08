@@ -1,0 +1,40 @@
+arxiv_id,year,title,category,scope,arxiv_url
+2601.00930,2026,AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation,user_simulation,primary,https://arxiv.org/abs/2601.00930
+2601.06111,2026,LLM-Powered Social Digital Twins: A Framework for Simulating and Understanding Human Behavior,digital_twins,primary,https://arxiv.org/abs/2601.06111
+2601.17087,2026,Lost in Simulation: LLM-Simulated Users are Unreliable Proxies for Human Users in Agentic Evaluations,user_validation,primary,https://arxiv.org/abs/2601.17087
+2601.18225,2026,ShopSimulator: Evaluating and Exploring RL-Driven LLM Agent for Shopping Assistants,consumer_simulation,extended,https://arxiv.org/abs/2601.18225
+2602.06008,2026,AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions,economic_behavior,extended,https://arxiv.org/abs/2602.06008
+2602.06302,2026,Do LLMs Track Public Opinion? A Multi-Model Study of Favorability Predictions in the 2024 U.S. Presidential Election,survey_opinion,primary,https://arxiv.org/abs/2602.06302
+2602.12583,2026,Opinion Dynamics and Mutual Influence with LLM Agents through Dialog Simulation,social_simulation,primary,https://arxiv.org/abs/2602.12583
+2602.13862,2026,Measuring Self-Rating Bias in LLM-Generated Survey Data: A Semantic Similarity Framework for Independent Scale Mapping,survey_validation,primary,https://arxiv.org/abs/2602.13862
+2602.15785,2026,This Human Study Did Not Involve Human Subjects: Validating LLM Simulations as Behavioral Evidence,methods_validation,primary,https://arxiv.org/abs/2602.15785
+2602.18462,2026,Assessing the Reliability of Persona-Conditioned LLMs as Synthetic Survey Respondents,survey_validation,primary,https://arxiv.org/abs/2602.18462
+2603.00059,2026,Stochastic Parrots or Singing in Harmony? Evaluating Behavioral Fidelity in LLM-Based Human Simulation,methods_validation,primary,https://arxiv.org/abs/2603.00059
+2603.00113,2026,AI Agents Alone Are Not (Yet) Sufficient for Social Simulation,methods_validation,primary,https://arxiv.org/abs/2603.00113
+2603.12152,2026,LifeSim: Long-Horizon User Life Simulator for Personalized Assistant Evaluation,user_simulation,primary,https://arxiv.org/abs/2603.12152
+2603.13876,2026,How do Role Models Shape Collective Morality? Exemplar-Driven Moral Learning in Multi-Agent Simulation,social_simulation,primary,https://arxiv.org/abs/2603.13876
+2603.13890,2026,Beyond Self-Interest: Modeling Social-Oriented Motivation for Human-like Multi-Agent Interactions,social_simulation,primary,https://arxiv.org/abs/2603.13890
+2604.01520,2026,LLM Agents as Social Scientists: Agent-Based Social Simulation with Large Language Models,methods_review,primary,https://arxiv.org/abs/2604.01520
+2604.08362,2026,Towards Real-world Human Behavior Simulation with Large Language Models,human_behavior,primary,https://arxiv.org/abs/2604.08362
+2604.09549,2026,Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation,user_simulation,primary,https://arxiv.org/abs/2604.09549
+2604.15329,2026,Evaluating LLMs as Human Surrogates in Controlled Experiments,methods_validation,primary,https://arxiv.org/abs/2604.15329
+2604.18011,2026,Topology-Aware LLM-Driven Social Simulation: A Unified Framework for Efficient and Realistic Agent Dynamics,social_simulation,primary,https://arxiv.org/abs/2604.18011
+2605.00197,2026,The Silicon Society Cookbook: Design Space of LLM-based Social Simulations,methods_review,primary,https://arxiv.org/abs/2605.00197
+2605.18890,2026,Stop Drawing Scientific Claims from LLM Social Simulations Without Robustness Audits,methods_validation,primary,https://arxiv.org/abs/2605.18890
+2605.25680,2026,Simulating Human Memory with Language Models,cognition,primary,https://arxiv.org/abs/2605.25680
+2605.27419,2026,APS: Bias-Controlled Adaptive Prototype Simulation for Population-Scale LLM Agents,social_simulation,primary,https://arxiv.org/abs/2605.27419
+2606.04592,2026,Synthetic Personalities: How Well Can LLMs Mimic Individual Respondents Using Socio-Economic Microdata?,survey_opinion,primary,https://arxiv.org/abs/2606.04592
+2606.05697,2026,PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation,user_simulation,primary,https://arxiv.org/abs/2606.05697
+2606.11079,2026,VISTA: A Versatile Interactive User Simulation Toolkit for Agent Evaluation,user_simulation,primary,https://arxiv.org/abs/2606.11079
+2606.12369,2026,Should LLM Agents Decide in Social Simulations? Comparing Finite-State and LLM-Based Decision Policies,methods_validation,primary,https://arxiv.org/abs/2606.12369
+2606.13629,2026,Valid Inference with Synthetic Data via Task Exchangeability,methods_validation,primary,https://arxiv.org/abs/2606.13629
+2606.21820,2026,Generating Public Health Responses using Survey-Augmented LLMs,survey_opinion,primary,https://arxiv.org/abs/2606.21820
+2606.26883,2026,EconSimulacra: A Digital Twin Platform of Socio-Economic Systems Powered by LLM Agents,economic_simulation,primary,https://arxiv.org/abs/2606.26883
+2606.30085,2026,Not-quite-human tastes: the stylized omnivorousness of LLM survey surrogates,survey_validation,primary,https://arxiv.org/abs/2606.30085
+2607.02464,2026,Will Scaling Improve Social Simulation with LLMs?,methods_validation,primary,https://arxiv.org/abs/2607.02464
+2607.03091,2026,Silicon Sampling via Cross-Survey Transfer,survey_validation,primary,https://arxiv.org/abs/2607.03091
+2607.26348,2026,When Synthetic Users Fail: A Cross-Domain Benchmark of LLM-Simulated Human Survey Responses,survey_validation,primary,https://arxiv.org/abs/2607.26348
+2608.07519,2026,From Survey Personas to LLM Agents: A Generative Agent-based Simulation of Mobility Policy Preference Dynamics,social_simulation,primary,https://arxiv.org/abs/2608.07519
+2608.14079,2026,The Conditional Superiority of Fast Silicon Sampling,survey_validation,primary,https://arxiv.org/abs/2608.14079
+2608.16897,2026,CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents,social_simulation,primary,https://arxiv.org/abs/2608.16897
+2608.20344,2026,Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins,digital_twins,primary,https://arxiv.org/abs/2608.20344
