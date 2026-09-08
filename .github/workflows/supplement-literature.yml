@@ -1,0 +1,57 @@
+name: Supplement literature PDFs
+
+on:
+  push:
+    branches:
+      - chatgpt-download-literature-supplement-20260908
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  supplement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Reuse first download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026
+          path: literature_downloads
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: 34218300698
+
+      - name: Apply repository fallback pass
+        run: python scripts/retry_failed_literature.py
+
+      - name: Apply exact-title public web pass
+        run: python scripts/supplement_public_pdf_candidates.py
+
+      - name: Show result
+        run: |
+          cat literature_supplement/RECOVERED.txt
+          echo "Supplement PDF count: $(find literature_supplement/papers -type f -name '*.pdf' | wc -l)"
+
+      - name: Upload supplemental PDFs and final manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026-supplement
+          path: literature_supplement/
+          retention-days: 7
+          compression-level: 6
