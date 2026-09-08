@@ -1,0 +1,41 @@
+arxiv_id,year,title,category,scope,arxiv_url
+2301.05327,2023,Blind Judgement: Agent-Based Supreme Court Modelling With GPT,political_simulation,primary,https://arxiv.org/abs/2301.05327
+2301.07543,2023,Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?,economic_behavior,primary,https://arxiv.org/abs/2301.07543
+2302.01339,2023,Creating a Large Language Model of a Philosopher,human_roleplay,extended,https://arxiv.org/abs/2302.01339
+2303.16779,2023,Language Models Trained on Media Diets Can Predict Public Opinion,survey_opinion,primary,https://arxiv.org/abs/2303.16779
+2303.17548,2023,Whose Opinions Do Language Models Reflect?,survey_opinion,primary,https://arxiv.org/abs/2303.17548
+2304.03442,2023,Generative Agents: Interactive Simulacra of Human Behavior,social_simulation,primary,https://arxiv.org/abs/2304.03442
+2305.02531,2023,Can Large Language Models Capture Human Preferences?,consumer_preferences,primary,https://arxiv.org/abs/2305.02531
+2305.09620,2023,AI-Augmented Surveys: Leveraging Large Language Models and Surveys for Opinion Prediction,survey_opinion,primary,https://arxiv.org/abs/2305.09620
+2305.14929,2023,Aligning Language Models to User Opinions,survey_opinion,primary,https://arxiv.org/abs/2305.14929
+2305.15041,2023,Generating Faithful Synthetic Data with Large Language Models: A Case Study in Computational Social Science,synthetic_data,extended,https://arxiv.org/abs/2305.15041
+2305.16367,2023,Role Play with Large Language Models,human_roleplay,extended,https://arxiv.org/abs/2305.16367
+2305.16867,2023,Playing Repeated Games with Large Language Models,economic_behavior,extended,https://arxiv.org/abs/2305.16867
+2306.02552,2023,RecAgent: User Behavior Simulation with Large Language Model-based Agents,user_simulation,primary,https://arxiv.org/abs/2306.02552
+2306.03917,2023,Turning Large Language Models into Cognitive Models,cognition,primary,https://arxiv.org/abs/2306.03917
+2306.07951,2023,Questioning the Survey Responses of Large Language Models,survey_validation,primary,https://arxiv.org/abs/2306.07951
+2306.16388,2023,Towards Measuring the Representation of Subjective Global Opinions in Language Models,survey_opinion,primary,https://arxiv.org/abs/2306.16388
+2307.00184,2023,Personality Traits in Large Language Models,psychology,extended,https://arxiv.org/abs/2307.00184
+2307.04781,2023,Demonstrations of the Potential of AI-based Political Issue Polling,survey_opinion,primary,https://arxiv.org/abs/2307.04781
+2307.04986,2023,Epidemic Modeling with Generative Agents,social_simulation,primary,https://arxiv.org/abs/2307.04986
+2307.14984,2023,S3: Social-network Simulation System with Large Language Model-Empowered Agents,social_simulation,primary,https://arxiv.org/abs/2307.14984
+2308.03313,2023,Quantifying the Impact of Large Language Models on Collective Opinion Dynamics,social_simulation,primary,https://arxiv.org/abs/2308.03313
+2308.10974,2023,"""Guinea Pig Trials"" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion",economic_simulation,primary,https://arxiv.org/abs/2308.10974
+2309.04658,2023,Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf,social_interaction,extended,https://arxiv.org/abs/2309.04658
+2309.11456,2023,Generative Agent-Based Modeling: Unveiling Social System Dynamics through Coupling Mechanistic Models with Generative Artificial Intelligence,social_simulation,primary,https://arxiv.org/abs/2309.11456
+2310.02124,2023,Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View,social_interaction,extended,https://arxiv.org/abs/2310.02124
+2310.02172,2023,Lyfe Agents: Generative Agents for Low-Cost Real-Time Social Interactions,social_simulation,primary,https://arxiv.org/abs/2310.02172
+2310.05976,2023,An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using a Large Language Model,social_simulation,primary,https://arxiv.org/abs/2310.05976
+2310.06500,2023,MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-Oriented Coordination via Collaborative Generative Agents,human_behavior,primary,https://arxiv.org/abs/2310.06500
+2310.10436,2023,EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,economic_simulation,primary,https://arxiv.org/abs/2310.10436
+2310.14404,2023,"Be Selfish, But Wisely: Investigating the Impact of Agent Personality in Mixed-Motive Human-Agent Interactions",human_behavior,extended,https://arxiv.org/abs/2310.14404
+2310.17888,2023,Large Language Models as Subpopulation Representative Models: A Review,methods_review,primary,https://arxiv.org/abs/2310.17888
+2311.00217,2023,Can Large Language Models Capture Public Opinion about Global Warming? An Empirical Assessment of Algorithmic Fidelity and Bias,survey_opinion,primary,https://arxiv.org/abs/2311.00217
+2311.04076,2023,Do LLMs Exhibit Human-like Response Biases? A Case Study in Survey Design,survey_validation,primary,https://arxiv.org/abs/2311.04076
+2311.06957,2023,Simulating Public Administration Crisis: A Novel Generative Agent-Based Simulation System to Lower Technology Barriers in Social Science Research,social_simulation,primary,https://arxiv.org/abs/2311.06957
+2311.09618,2023,Simulating Opinion Dynamics with Networks of LLM-based Agents,social_simulation,primary,https://arxiv.org/abs/2311.09618
+2311.09665,2023,The Wisdom of Partisan Crowds: Comparing Collective Intelligence in Humans and LLM-based Agents,social_simulation,primary,https://arxiv.org/abs/2311.09665
+2311.17227,2023,War and Peace (WarAgent): Large Language Model-Based Multi-Agent Simulation of World Wars,social_simulation,extended,https://arxiv.org/abs/2311.17227
+2312.03664,2023,Concordia: A Library for Generative Social Simulation,social_simulation,primary,https://arxiv.org/abs/2312.03664
+2312.04578,2023,Towards a Psychological Generalist AI: A Survey of Current Applications of Large Language Models and Future Prospects,methods_review,extended,https://arxiv.org/abs/2312.04578
+2312.15524,2023,The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective,methods_validation,primary,https://arxiv.org/abs/2312.15524
