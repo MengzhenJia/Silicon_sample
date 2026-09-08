@@ -1,0 +1,114 @@
+name: Package literature PDFs final
+
+on:
+  push:
+    branches:
+      - chatgpt-download-literature-final-20260908
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Reuse first download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026
+          path: literature_downloads
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: 34218300698
+
+      - name: Retry failed items through public repositories
+        run: python scripts/retry_failed_literature.py
+
+      - name: Split bundle into four balanced parts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os, shutil
+
+          root = Path('literature_downloads')
+          papers = sorted((root / 'papers').glob('*.pdf'), key=lambda p: p.stat().st_size, reverse=True)
+          out = Path('artifact_parts')
+          groups = [[] for _ in range(4)]
+          sizes = [0, 0, 0, 0]
+          for p in papers:
+              j = min(range(4), key=lambda x: sizes[x])
+              groups[j].append(p)
+              sizes[j] += p.stat().st_size
+
+          for part_no, group in enumerate(groups, 1):
+              idx = part_no - 1
+              dst = out / f'part_{part_no}'
+              (dst / 'papers').mkdir(parents=True, exist_ok=True)
+              shutil.copy2(root / 'download_manifest.csv', dst / 'download_manifest.csv')
+              shutil.copy2(root / 'README.txt', dst / 'README.txt')
+              for p in group:
+                  target = dst / 'papers' / p.name
+                  try:
+                      os.link(p, target)
+                  except OSError:
+                      shutil.copy2(p, target)
+              (dst / 'PART_INFO.txt').write_text(
+                  f'Part {part_no} of 4\nPDF count: {len(group)}\nRaw PDF bytes: {sizes[idx]}\n',
+                  encoding='utf-8'
+              )
+              print(f'part {part_no}: files={len(group)} bytes={sizes[idx]}')
+          PY
+
+      - name: Show summary
+        run: |
+          cat literature_downloads/README.txt
+          echo "PDF count: $(find literature_downloads/papers -type f -name '*.pdf' | wc -l)"
+          du -sh artifact_parts/part_*
+
+      - name: Upload part 1
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026-part-1
+          path: artifact_parts/part_1/
+          retention-days: 7
+          compression-level: 6
+
+      - name: Upload part 2
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026-part-2
+          path: artifact_parts/part_2/
+          retention-days: 7
+          compression-level: 6
+
+      - name: Upload part 3
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026-part-3
+          path: artifact_parts/part_3/
+          retention-days: 7
+          compression-level: 6
+
+      - name: Upload part 4
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-pdfs-2023-2026-part-4
+          path: artifact_parts/part_4/
+          retention-days: 7
+          compression-level: 6
