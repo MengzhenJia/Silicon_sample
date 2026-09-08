@@ -1,0 +1,107 @@
+name: Split arXiv literature artifact
+
+on:
+  push:
+    branches:
+      - download-arxiv-literature-20260908
+    paths:
+      - '.github/workflows/split-arxiv-literature.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Download completed literature artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: arxiv-literature-all
+          path: source_artifact
+          repository: MengzhenJia/Silicon_sample
+          run-id: 34218424524
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract and split by year
+        run: |
+          mkdir -p extracted year_packages
+          unzip -q source_artifact/arxiv_literature.zip -d extracted
+          python - <<'PY'
+          import csv
+          import shutil
+          from pathlib import Path
+
+          root = Path('extracted')
+          out = Path('year_packages')
+          rows = list(csv.DictReader((root / 'manifest.csv').open(encoding='utf-8')))
+          fields = rows[0].keys() if rows else []
+          by_year = {}
+          for row in rows:
+              year = row.get('year') or 'unknown'
+              by_year.setdefault(year, []).append(row)
+          for year, subset in sorted(by_year.items()):
+              ydir = out / year
+              pdfdir = ydir / 'pdfs'
+              pdfdir.mkdir(parents=True, exist_ok=True)
+              for row in subset:
+                  rel = row.get('local_file') or ''
+                  if not rel:
+                      continue
+                  src = root / rel
+                  if src.exists():
+                      shutil.copy2(src, pdfdir / src.name)
+              with (ydir / 'manifest.csv').open('w', encoding='utf-8', newline='') as f:
+                  w = csv.DictWriter(f, fieldnames=fields)
+                  w.writeheader()
+                  w.writerows(subset)
+              print(year, len(subset))
+          PY
+          for year in 2022 2023 2024 2025 2026; do
+            if [ -d "year_packages/$year" ]; then
+              (cd year_packages/$year && zip -q -r "../arxiv-literature-$year.zip" .)
+            fi
+          done
+          ls -lh year_packages/*.zip
+
+      - name: Upload 2022 package
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2022
+          path: year_packages/arxiv-literature-2022.zip
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2023 package
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2023
+          path: year_packages/arxiv-literature-2023.zip
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2024 package
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2024
+          path: year_packages/arxiv-literature-2024.zip
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2025 package
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2025
+          path: year_packages/arxiv-literature-2025.zip
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload 2026 package
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-2026
+          path: year_packages/arxiv-literature-2026.zip
+          if-no-files-found: error
+          retention-days: 7
