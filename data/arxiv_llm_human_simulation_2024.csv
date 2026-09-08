@@ -1,0 +1,70 @@
+arxiv_id,year,title,category,scope,arxiv_url
+2401.01519,2024,Exploring the Frontiers of LLMs in Psychological Applications: A Comprehensive Review,methods_review,extended,https://arxiv.org/abs/2401.01519
+2401.17435,2024,Can LLMs Replace Economic Choice Prediction Labs?,economic_behavior,primary,https://arxiv.org/abs/2401.17435
+2402.01908,2024,Large Language Models Should Not Replace Human Participants Because They Can Misportray and Flatten Identity Groups,methods_validation,primary,https://arxiv.org/abs/2402.01908
+2402.04049,2024,Systematic Biases in LLM Simulations of Debates,social_interaction,primary,https://arxiv.org/abs/2402.04049
+2402.04559,2024,Can Large Language Model Agents Simulate Human Trust Behavior?,human_behavior,primary,https://arxiv.org/abs/2402.04559
+2402.10811,2024,Quantifying the Persona Effect in LLM Simulations,methods_validation,primary,https://arxiv.org/abs/2402.10811
+2402.12326,2024,LLM Agents for Psychology: A Study on Gamified Assessments,psychology,primary,https://arxiv.org/abs/2402.12326
+2402.13374,2024,Reliable LLM-based User Simulator for Task-Oriented Dialogue Systems,user_simulation,primary,https://arxiv.org/abs/2402.13374
+2402.14679,2024,Is Cognition and Action Consistent or Not: Investigating Large Language Model's Personality,psychology,extended,https://arxiv.org/abs/2402.14679
+2402.16333,2024,Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation,social_simulation,primary,https://arxiv.org/abs/2402.16333
+2402.17505,2024,BASES: Large-scale Web Search User Simulation with Large Language Model based Agents,user_simulation,primary,https://arxiv.org/abs/2402.17505
+2402.18144,2024,Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information,survey_opinion,primary,https://arxiv.org/abs/2402.18144
+2403.05020,2024,Is This the Real Life? Is This Just Fantasy? The Misleading Success of Simulating Social Interactions With LLMs,methods_validation,primary,https://arxiv.org/abs/2403.05020
+2403.08251,2024,Emergence of Social Norms in Generative Agent Societies: Principles and Architecture,social_simulation,primary,https://arxiv.org/abs/2403.08251
+2403.09498,2024,From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News,social_simulation,primary,https://arxiv.org/abs/2403.09498
+2403.16416,2024,How Reliable is Your Simulator? Analysis on the Limitations of Current LLM-based User Simulators for Conversational Recommendation,user_validation,primary,https://arxiv.org/abs/2403.16416
+2404.06711,2024,MathVC: An LLM-Simulated Multi-Character Virtual Classroom for Mathematics Education,education_simulation,extended,https://arxiv.org/abs/2404.06711
+2404.11794,2024,Automated Social Science: Language Models as Scientist and Subjects,social_science_method,primary,https://arxiv.org/abs/2404.11794
+2404.12138,2024,Character is Destiny: Can Role-Playing Language Agents Make Persona-Driven Decisions?,human_behavior,extended,https://arxiv.org/abs/2404.12138
+2404.18231,2024,From Persona to Personalization: A Survey on Role-Playing Language Agents,methods_review,extended,https://arxiv.org/abs/2404.18231
+2405.00273,2024,Social Life Simulation for Non-Cognitive Skills Learning,social_simulation,extended,https://arxiv.org/abs/2405.00273
+2405.02957,2024,Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents,social_simulation,extended,https://arxiv.org/abs/2405.02957
+2405.06058,2024,Large Language Models Show Human-like Social Desirability Biases in Survey Responses,survey_validation,primary,https://arxiv.org/abs/2405.06058
+2405.07248,2024,Limited Ability of LLMs to Simulate Human Psychological Behaviours: A Psychometric Analysis,methods_validation,primary,https://arxiv.org/abs/2405.07248
+2405.08035,2024,"A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems",user_simulation,primary,https://arxiv.org/abs/2405.08035
+2405.11591,2024,Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation,education_simulation,primary,https://arxiv.org/abs/2405.11591
+2406.09464,2024,"GPT-ology, Computational Models, Silicon Sampling: How Should We Think about LLMs in Cognitive Science?",methods_review,primary,https://arxiv.org/abs/2406.09464
+2406.13605,2024,Nicer than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?,economic_behavior,primary,https://arxiv.org/abs/2406.13605
+2406.17055,2024,Large Language Models Assume People are More Rational than We Really are,human_behavior,primary,https://arxiv.org/abs/2406.17055
+2406.17232,2024,Beyond Demographics: Aligning Role-playing LLM-based Agents Using Human Belief Networks,survey_opinion,primary,https://arxiv.org/abs/2406.17232
+2406.18702,2024,Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior and Bipartisanship,political_simulation,primary,https://arxiv.org/abs/2406.18702
+2406.19226,2024,Simulating Classroom Education with LLM-Empowered Agents,education_simulation,extended,https://arxiv.org/abs/2406.19226
+2406.19966,2024,Simulating Financial Market via Large Language Model Based Agents,economic_simulation,extended,https://arxiv.org/abs/2406.19966
+2406.20094,2024,"Scaling Synthetic Data Creation with 1,000,000,000 Personas",synthetic_personas,extended,https://arxiv.org/abs/2406.20094
+2407.11190,2024,In Silico Sociology: Forecasting COVID-19 Polarization via Large Language Models,social_simulation,primary,https://arxiv.org/abs/2407.11190
+2407.11409,2024,Representation Bias in Political Sample Simulations with Large Language Models,survey_validation,primary,https://arxiv.org/abs/2407.11409
+2408.00818,2024,Y Social: An LLM-Powered Social Media Digital Twin,social_simulation,primary,https://arxiv.org/abs/2408.00818
+2408.09049,2024,Language Models Show Stable Value Orientations Across Diverse Role-Plays,psychology,extended,https://arxiv.org/abs/2408.09049
+2408.11826,2024,Generative Organizational Behavior Simulation Using Large Language Model Based Autonomous Agents: A Holacracy Perspective,social_simulation,primary,https://arxiv.org/abs/2408.11826
+2408.16081,2024,Logic-Enhanced Language Model Agents for Trustworthy Social Simulations,methods_validation,primary,https://arxiv.org/abs/2408.16081
+2409.01907,2024,Focus Agent: LLM-Powered Virtual Focus Group,synthetic_participants,primary,https://arxiv.org/abs/2409.01907
+2409.09045,2024,United in Diversity? Contextual Biases in LLM-Based Predictions of the 2024 European Parliament Elections,political_opinion,primary,https://arxiv.org/abs/2409.09045
+2409.19338,2024,Decoding Echo Chambers: LLM-Powered Simulations Revealing Polarization in Social Networks,social_simulation,primary,https://arxiv.org/abs/2409.19338
+2410.04360,2024,GenSim: A General Social Simulation Platform with Large Language Model based Agents,social_simulation,primary,https://arxiv.org/abs/2410.04360
+2410.14152,2024,SRAP-Agent: Simulating and Optimizing Scarce Resource Allocation Policy with LLM-based Agent,social_simulation,primary,https://arxiv.org/abs/2410.14152
+2410.15442,2024,Exploring Social Desirability Response Bias in Large Language Models for Survey Research,survey_validation,primary,https://arxiv.org/abs/2410.15442
+2410.19064,2024,From a Tiny Slip to a Giant Leap: An LLM-Based Simulation for Fake News Evolution,social_simulation,primary,https://arxiv.org/abs/2410.19064
+2410.20027,2024,Agentic Feedback Loop Modeling Improves Recommendation and User Simulation,user_simulation,extended,https://arxiv.org/abs/2410.20027
+2410.20268,2024,Centaur: a Foundation Model of Human Cognition,cognition,primary,https://arxiv.org/abs/2410.20268
+2410.20746,2024,ElectionSim: Massive Population Election Simulation Powered by Large Language Model Driven Agents,political_simulation,primary,https://arxiv.org/abs/2410.20746
+2410.22041,2024,An LLM-based Simulation Framework for Embodied Conversational Agents in Psychological Counseling,human_behavior,extended,https://arxiv.org/abs/2410.22041
+2411.03252,2024,Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities,social_simulation,primary,https://arxiv.org/abs/2411.03252
+2411.05403,2024,Benchmarking Distributional Alignment of Large Language Models for Survey Research,survey_validation,primary,https://arxiv.org/abs/2411.05403
+2411.10109,2024,"Generative Agent Simulations of 1,000 People",digital_twins,primary,https://arxiv.org/abs/2411.10109
+2411.10294,2024,Static Network Structure Cannot Stabilize Cooperation among Large Language Model Agents,social_simulation,primary,https://arxiv.org/abs/2411.10294
+2411.11581,2024,OASIS: Open Agent Social Interaction Simulations with One Million Agents,social_simulation,primary,https://arxiv.org/abs/2411.11581
+2411.16031,2024,Agent-Based Modelling Meets Generative AI in Social Network Simulations,social_simulation,primary,https://arxiv.org/abs/2411.16031
+2411.18071,2024,Simulating Tabular Datasets through Large Language Models to Rapidly Explore Hypotheses about Real-World Entities,synthetic_data,extended,https://arxiv.org/abs/2411.18071
+2412.03162,2024,LLM-Mirror: A Generated-Persona Approach for Survey Pre-Testing,synthetic_participants,primary,https://arxiv.org/abs/2412.03162
+2412.03563,2024,From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents,methods_review,primary,https://arxiv.org/abs/2412.03563
+2412.03920,2024,A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios,methods_review,primary,https://arxiv.org/abs/2412.03920
+2412.05093,2024,Sense and Sensitivity: Evaluating the Simulation of Social Dynamics via Large Language Models,methods_validation,primary,https://arxiv.org/abs/2412.05093
+2412.06435,2024,Simulating Human-like Daily Activities with Desire-driven Autonomy,human_behavior,primary,https://arxiv.org/abs/2412.06435
+2412.07144,2024,Political Actor Agent: Simulating Legislative System for Roll Call Votes Prediction with Large Language Models,political_simulation,primary,https://arxiv.org/abs/2412.07144
+2412.07788,2024,"Human Behavior Simulation: Objectives, Methodologies, and Open Problems",methods_review,primary,https://arxiv.org/abs/2412.07788
+2412.09237,2024,LMAgent: A Large-scale Multimodal Agents Society for Multi-user Simulation,user_simulation,primary,https://arxiv.org/abs/2412.09237
+2412.16984,2024,LLM-Powered User Simulator for Recommender System,user_simulation,primary,https://arxiv.org/abs/2412.16984
+2412.19363,2024,Large Language Models for Market Research: A Data-augmentation Approach,consumer_simulation,primary,https://arxiv.org/abs/2412.19363
+2412.19498,2024,Casevo: A Cognitive Agents and Social Evolution Simulator,social_simulation,primary,https://arxiv.org/abs/2412.19498
