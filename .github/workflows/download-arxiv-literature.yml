@@ -1,0 +1,57 @@
+name: Download arXiv literature
+
+on:
+  push:
+    branches:
+      - download-arxiv-literature-20260908
+    paths:
+      - '.github/workflows/download-arxiv-literature.yml'
+      - 'scripts/download_arxiv_literature.py'
+      - 'data/**.csv'
+
+permissions:
+  contents: read
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all papers referenced by CSVs
+        id: download
+        continue-on-error: true
+        run: python scripts/download_arxiv_literature.py
+
+      - name: Build ZIP package
+        if: always()
+        run: |
+          cd downloaded_literature
+          zip -q -r ../arxiv_literature.zip .
+          cd ..
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          manifest = Path('downloaded_literature/manifest.csv')
+          failed = Path('downloaded_literature/failed.csv')
+          rows = list(csv.DictReader(manifest.open(encoding='utf-8'))) if manifest.exists() else []
+          bad = list(csv.DictReader(failed.open(encoding='utf-8'))) if failed.exists() else []
+          ok = sum(r.get('status') == 'ok' for r in rows)
+          print(f'Total unique records: {len(rows)}')
+          print(f'Downloaded PDFs: {ok}')
+          print(f'Failures: {len(bad)}')
+          PY
+
+      - name: Upload literature package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-literature-all
+          path: |
+            arxiv_literature.zip
+            downloaded_literature/manifest.csv
+            downloaded_literature/failed.csv
+          if-no-files-found: error
+          retention-days: 7
