@@ -77,6 +77,15 @@ def extract_arxiv(link):
         if m: return m.group(1)
     return None
 
+def canon_id(link):
+    arx = extract_arxiv(link)
+    if arx:
+        return "arxiv:" + arx
+    doi = extract_doi(link)
+    if doi:
+        return "doi:" + doi
+    return (link or "").strip().lower().rstrip("/")
+
 def add(cands, url, source):
     if not url: return
     url = str(url).replace("&amp;", "&").strip()
@@ -201,7 +210,7 @@ def try_download(url,dst):
                 if chunk:
                     data.extend(chunk)
                     if len(data)>MAX_BYTES: return False,"too large"
-            if not bytes(data[:5])==b"%PDF":
+            if b"%PDF-" not in bytes(data[:1024]):
                 return False,f"not PDF ({ct or 'unknown'}; {len(data)} bytes)"
             dst.write_bytes(data)
             return True,str(len(data))
@@ -211,12 +220,13 @@ def try_download(url,dst):
 def load_missing():
     current=list(csv.DictReader(CURRENT.open(encoding="utf-8-sig")))
     old=list(csv.DictReader(OLD.open(encoding="utf-8-sig")))
-    old_norm={norm_title(r["Title"]) for r in old}
     failed_norm={norm_title(x) for x in FAILED_OLD}
+    old_by_title={norm_title(r["Title"]): r for r in old}
+    failed_ids={canon_id(old_by_title[n]["Link"]) for n in failed_norm if n in old_by_title}
+    downloaded_ids={canon_id(r["Link"]) for r in old if canon_id(r["Link"]) not in failed_ids}
     missing=[]
     for r in current:
-        n=norm_title(r["Title"])
-        if n not in old_norm or n in failed_norm:
+        if canon_id(r["Link"]) not in downloaded_ids:
             missing.append(r)
     return missing
 
