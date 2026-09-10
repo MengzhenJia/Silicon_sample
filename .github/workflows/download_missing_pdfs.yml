@@ -1,0 +1,39 @@
+name: Download missing generative social science PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/download_missing_pdfs.yml'
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Download missing PDFs
+        run: python scripts/download_missing_pdfs.py
+
+      - name: Upload PDFs and manifests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generativess-missing-pdfs-2026-09-10
+          path: downloaded_missing/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
