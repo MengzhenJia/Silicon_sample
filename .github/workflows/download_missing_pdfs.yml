@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/download_missing_pdfs.yml'
+      - 'scripts/download_missing_pdfs.py'
   workflow_dispatch:
 
 jobs:
@@ -32,7 +33,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: generativess-missing-pdfs-2026-09-10
+          name: generativess-missing-pdfs-2026-09-10-v2
           path: downloaded_missing/
           if-no-files-found: error
           retention-days: 7
