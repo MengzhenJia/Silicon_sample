@@ -20,67 +20,42 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
-          import csv, re
+          import csv
           from pathlib import Path
-
-          manual = {
-              '018':2023,'022':2024,'026':2024,'040':2024,'053':2024,'056':2023,
-              '071':2023,'080':2023,'082':2024,'084':2026,'087':2025,'092':2025,
-              '093':2024,'099':2024,'103':2026,'105':2024,'110':2024,'114':2024,
-              '116':2026,'117':2025,'121':2024,'133':2026,'138':2023,'145':2023,
-              '148':2026,'161':2023,'164':2026,'197':2026,'204':2023,'224':2025,
-              '225':2025,'226':2024,'233':2024,'240':2026,'249':2025,'251':2025,
-              '252':2023,'253':2023,'277':2024,'287':2024,
-              '048':2024,'059':2024,'074':2024,'090':2024,'263':2024,'279':2023,
+          groups = {
+            2023: '001,018,021,035,037,042,043,044,052,056,069,071,080,083,096,106,107,109,111,113,115,124,128,130,138,140,145,146,151,152,161,179,191,195,201,204,205,212,229,230,232,239,252,253,265,272,275,279,283',
+            2024: '010,011,013,020,022,023,024,026,028,031,032,038,040,041,045,046,048,051,053,059,063,064,066,072,074,075,076,077,079,082,088,090,093,099,100,105,108,110,114,120,121,122,132,143,153,157,173,174,175,177,178,182,186,187,188,189,190,198,202,206,211,214,216,217,218,222,226,227,233,234,245,246,247,248,250,263,269,276,277,281,286,287,288',
+            2025: '003,004,006,007,012,014,015,019,029,033,036,039,047,050,054,055,058,060,062,065,073,078,081,087,091,092,097,098,102,104,112,117,118,119,123,125,129,131,134,135,136,139,144,147,150,154,156,163,166,168,170,171,180,181,183,184,185,192,193,199,208,209,213,215,219,220,223,224,225,228,231,235,237,241,242,243,244,249,251,254,255,256,257,259,262,264,268,270,271,273,274,278,280,282,285',
+            2026: '002,005,008,009,016,017,025,027,030,034,049,057,061,067,068,070,084,085,086,089,094,095,101,103,116,126,127,133,137,141,142,148,149,155,158,159,160,162,164,165,167,169,172,176,194,196,197,200,203,207,210,221,236,238,240,258,260,261,266,267,284'
           }
-
-          def get_year(row):
-              pid, url = row['paper_id'], row['Link']
-              if pid in manual:
-                  return manual[pid]
-              m = re.search(r'(?:arxiv\.org/abs/|doi\.org/10\.48550/(?:arXiv\.)?)(\d{2})(\d{2})\.', url, re.I)
-              if m:
-                  return 2000 + int(m.group(1))
-              if 'doi.org/' in url:
-                  doi = url.split('doi.org/', 1)[1]
-                  m = re.search(r'10\.1177/[^/]{8}(2[3-6])', doi, re.I)
-                  if m:
-                      return 2000 + int(m.group(1))
-                  m = re.search(r's\d+-(0?2[3-6])-', doi, re.I)
-                  if m:
-                      return 2000 + int(m.group(1))
-                  ys = re.findall(r'(?<!\d)(20(?:2[0-6]))(?!\d)', doi)
-                  if ys:
-                      return int(ys[-1])
-              raise RuntimeError(f'Unresolved year: {pid} {row["Title"]}')
-
+          years = {pid: year for year, ids in groups.items() for pid in ids.split(',')}
+          assert len(years) == 288
           base = Path('literature')
-          main = base / 'GENERATIVESS_list.csv'
+
+          main = base/'GENERATIVESS_list.csv'
           with main.open(encoding='utf-8-sig', newline='') as f:
               rows = list(csv.DictReader(f))
-          years = {r['paper_id']: get_year(r) for r in rows}
-          assert len(rows) == 288 and len(years) == 288
+          assert len(rows) == 288 and all(r['paper_id'] in years for r in rows)
           with main.open('w', encoding='utf-8', newline='') as f:
               w = csv.DictWriter(f, fieldnames=['paper_id','Title','Year','Link'])
               w.writeheader()
               for r in rows:
                   w.writerow({'paper_id':r['paper_id'],'Title':r['Title'],'Year':years[r['paper_id']],'Link':r['Link']})
 
-          def enrich(path, ordered_fields):
-              if not path.exists():
-                  return
+          def enrich(path, fields):
+              if not path.exists(): return
               with path.open(encoding='utf-8-sig', newline='') as f:
-                  rs = list(csv.DictReader(f))
+                  rows = list(csv.DictReader(f))
               with path.open('w', encoding='utf-8', newline='') as f:
-                  w = csv.DictWriter(f, fieldnames=ordered_fields)
+                  w = csv.DictWriter(f, fieldnames=fields)
                   w.writeheader()
-                  for r in rs:
+                  for r in rows:
                       r['Year'] = years[r['paper_id']]
-                      w.writerow({k:r.get(k,'') for k in ordered_fields})
+                      w.writerow({k:r.get(k,'') for k in fields})
 
           enrich(base/'GENERATIVESS_pdf_manifest.csv', ['paper_id','Title','Year','Link','pdf_status','pdf_filename','source','resolved_pdf_url','download_note'])
           enrich(base/'GENERATIVESS_failed_downloads.csv', ['paper_id','Title','Year','Link','download_note'])
-          print('Year distribution:', {y:list(years.values()).count(y) for y in sorted(set(years.values()))})
+          print({y: sum(v==y for v in years.values()) for y in sorted(groups)})
           PY
       - name: Commit enriched tables
         shell: bash
