@@ -1,0 +1,96 @@
+name: Add GENERATIVESS publication years
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/add-generativess-years.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-years:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Add publication years
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv, re
+          from pathlib import Path
+
+          manual = {
+              '018':2023,'022':2024,'026':2024,'040':2024,'053':2024,'056':2023,
+              '071':2023,'080':2023,'082':2024,'084':2026,'087':2025,'092':2025,
+              '093':2024,'099':2024,'103':2026,'105':2024,'110':2024,'114':2024,
+              '116':2026,'117':2025,'121':2024,'133':2026,'138':2023,'145':2023,
+              '148':2026,'161':2023,'164':2026,'197':2026,'204':2023,'224':2025,
+              '225':2025,'226':2024,'233':2024,'240':2026,'249':2025,'251':2025,
+              '252':2023,'253':2023,'277':2024,'287':2024,
+              '048':2024,'059':2024,'074':2024,'090':2024,'263':2024,'279':2023,
+          }
+
+          def get_year(row):
+              pid, url = row['paper_id'], row['Link']
+              if pid in manual:
+                  return manual[pid]
+              m = re.search(r'(?:arxiv\.org/abs/|doi\.org/10\.48550/(?:arXiv\.)?)(\d{2})(\d{2})\.', url, re.I)
+              if m:
+                  return 2000 + int(m.group(1))
+              if 'doi.org/' in url:
+                  doi = url.split('doi.org/', 1)[1]
+                  m = re.search(r'10\.1177/[^/]{8}(2[3-6])', doi, re.I)
+                  if m:
+                      return 2000 + int(m.group(1))
+                  m = re.search(r's\d+-(0?2[3-6])-', doi, re.I)
+                  if m:
+                      return 2000 + int(m.group(1))
+                  ys = re.findall(r'(?<!\d)(20(?:2[0-6]))(?!\d)', doi)
+                  if ys:
+                      return int(ys[-1])
+              raise RuntimeError(f'Unresolved year: {pid} {row["Title"]}')
+
+          base = Path('literature')
+          main = base / 'GENERATIVESS_list.csv'
+          with main.open(encoding='utf-8-sig', newline='') as f:
+              rows = list(csv.DictReader(f))
+          years = {r['paper_id']: get_year(r) for r in rows}
+          assert len(rows) == 288 and len(years) == 288
+          with main.open('w', encoding='utf-8', newline='') as f:
+              w = csv.DictWriter(f, fieldnames=['paper_id','Title','Year','Link'])
+              w.writeheader()
+              for r in rows:
+                  w.writerow({'paper_id':r['paper_id'],'Title':r['Title'],'Year':years[r['paper_id']],'Link':r['Link']})
+
+          def enrich(path, ordered_fields):
+              if not path.exists():
+                  return
+              with path.open(encoding='utf-8-sig', newline='') as f:
+                  rs = list(csv.DictReader(f))
+              with path.open('w', encoding='utf-8', newline='') as f:
+                  w = csv.DictWriter(f, fieldnames=ordered_fields)
+                  w.writeheader()
+                  for r in rs:
+                      r['Year'] = years[r['paper_id']]
+                      w.writerow({k:r.get(k,'') for k in ordered_fields})
+
+          enrich(base/'GENERATIVESS_pdf_manifest.csv', ['paper_id','Title','Year','Link','pdf_status','pdf_filename','source','resolved_pdf_url','download_note'])
+          enrich(base/'GENERATIVESS_failed_downloads.csv', ['paper_id','Title','Year','Link','download_note'])
+          print('Year distribution:', {y:list(years.values()).count(y) for y in sorted(set(years.values()))})
+          PY
+      - name: Commit enriched tables
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add literature/GENERATIVESS_list.csv literature/GENERATIVESS_pdf_manifest.csv literature/GENERATIVESS_failed_downloads.csv
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'Add publication year to GENERATIVESS literature tables'
+            git push
+          fi
