@@ -1,289 +1,289 @@
-paper_id,Title,Link
-001,"""Guinea Pig Trials"" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion",https://arxiv.org/abs/2308.10974
-002,12 best practices for leveraging Generative AI in experimental research,https://doi.org/10.1016/j.jebo.2026.107564
-003,A foundation model to predict and capture human cognition,https://doi.org/10.1038/s41586-025-09215-4
-004,A large-scale replication of scenario-based experiments in psychology and management using large language models,https://doi.org/10.1038/s43588-025-00840-7
-005,A Methodological Guide on Using Large Language Models for Reproducible Text Annotation in the Social Sciences and Humanities with Python and R,https://arxiv.org/abs/2604.09638
-006,A novel human-in-the-loop computational grounded theory framework for big social data,https://doi.org/10.1177/20539517251347598
-007,A quasi-experimental analysis of capabilities and limitations of generative AI in academic content evaluation in social sciences,https://doi.org/10.1016/j.ipm.2025.104365
-008,A scalable framework for building and validating knowledge-driven synthetic consumer agents with large language models,https://doi.org/10.1016/j.jii.2026.101183
-009,A survey of social network simulation in the LLM era: From classical models to Generative Agents,https://doi.org/10.1016/j.knosys.2026.116947
-010,AcademiaOS: Automating Grounded Theory Development in Qualitative Research with Large Language Models,https://arxiv.org/abs/2403.08844
-011,Affordable Generative Agents,https://arxiv.org/abs/2402.02053
-012,Agent-based Modeling meets the Capability Approach for Human Development: Simulating Homelessness Policy-making,https://doi.org/10.48550/arXiv.2503.18389
-013,Agent-Based Modelling Meets Generative AI: A Framework for Social Simulation,https://arxiv.org/abs/2401.10242
-014,Agent-Kernel: A MicroKernel Multi-Agent System Framework for Adaptive Social Simulation Powered by LLMs,https://doi.org/10.48550/arXiv.2512.01610
-015,Agentic AI for Sustainable Development: Leveraging Large Language Model-Enhanced Agent-Based Modeling for Complex Policy Strategies,https://doi.org/10.1177/27523543251365678
-016,AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society,https://arxiv.org/abs/2502.08691
-017,AI Agents Alone Are Not (Yet) Sufficient for Social Simulation,https://arxiv.org/abs/2411.16383
-018,AI and the transformation of social science research,https://doi.org/10.1126/science.adi1778
-019,AI Automatons: AI Systems Intended to Imitate Humans,https://arxiv.org/abs/2410.06321
-020,AI for social science and social science of AI: A Survey,http://arxiv.org/abs/2401.11839
-021,AI-Augmented Surveys: Leveraging Large Language Models and Surveys for Opinion Prediction,https://arxiv.org/abs/2305.09620
-022,AITurk: Using ChatGPT for Social Science Research,https://doi.org/10.2139/ssrn.4922861
-023,An evolutionary model of personality traits related to cooperative behavior using a large language model,https://arxiv.org/abs/2501.04663
-024,Artificial Leviathan: Exploring Social Evolution of LLM Agents Through the Lens of Hobbesian Social Contract Theory,https://doi.org/10.48550/arXiv.2406.14373
-025,Assessing the Reliability of Persona-Conditioned LLMs as Synthetic Survey Respondents,https://doi.org/10.48550/arXiv.2602.18462
-026,Automated Social Science: Language Models as Scientist and Subjects,https://doi.org/10.3386/w32381
-027,Automating the qualitative interview? Using Gen AI chatbots in social science research,https://doi.org/10.1177/20597991261448157
-028,AutoSurvey: Large Language Models Can Automatically Write Surveys,https://arxiv.org/abs/2306.10252
-029,Balancing Large Language Model Alignment and Algorithmic Fidelity in Social Science Research,https://doi.org/10.1177/00491241251342008
-030,Believable urban planning via large language model-enabled behavior modeling: A conceptual framework,https://doi.org/10.1016/j.cities.2026.107243
-031,Best Practices for Text Annotation with Large Language Models,https://doi.org/10.48550/ARXIV.2402.05129
-032,Beyond Demographics: Aligning Role-playing LLM-based Agents Using Human Belief Networks,https://arxiv.org/abs/2501.04692
-033,Beyond Profile: From Surface-Level Facts to Deep Persona Simulation in LLMs,https://arxiv.org/abs/2502.12958
-034,Beyond static responses: multi-agent LLM systems as a new paradigm for social science research,https://arxiv.org/abs/2506.01235
-035,Blind Judgement: Agent-Based Supreme Court Modelling With GPT,https://arxiv.org/abs/2309.13153
-036,Can A Society of Generative Agents Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine Hesitancy,https://doi.org/10.48550/arXiv.2503.09639
-037,Can AI language models replace human participants?,https://doi.org/10.1016/j.tics.2023.04.008
-038,Can ChatGPT Perform a Grounded Theory Approach to Do Risk Analysis? An Empirical Study,https://doi.org/10.1080/07421222.2024.2415772
-039,Can Generative AI agents behave like humans? Evidence from laboratory market experiments,https://arxiv.org/abs/2505.07457
-040,Can Generative AI improve social science?,https://doi.org/10.1073/pnas.2314021121
-041,Can Large Language Model Agents Simulate Human Trust Behavior?,https://arxiv.org/abs/2402.04559
-042,Can large language models build causal graphs?,https://arxiv.org/abs/2303.05279
-043,Can Large Language Models Capture Public Opinion about Global Warming? An Empirical Assessment of Algorithmic Fidelity and Bias,https://arxiv.org/abs/2310.11757
-044,Can Large Language Models emulate an inductive Thematic Analysis of semi-structured interviews? An exploration and provocation on the limits of the approach and the model,https://arxiv.org/abs/2305.13014
-045,Can Large Language Models Replace Economic Choice Prediction Labs?,https://arxiv.org/abs/2501.02336
-046,Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for Qualitative Data Analysis,https://arxiv.org/abs/2402.01386
-047,Can Large Language Models Trade? Testing Financial Theories with LLM Agents in Market Simulations,https://arxiv.org/abs/2504.10789
-048,Can Large Language Models Transform Computational Social Science?,https://doi.org/10.48550/arXiv.2305.03514
-049,Can LLMs Simulate Human Cognition Beyond Behavioral Imitation?,https://arxiv.org/abs/2502.07255
-050,Can LLMs Simulate Social Media Engagement? A Study of LLM-Based Human Simulation in Online Platforms,https://arxiv.org/abs/2407.10172
-051,Casevo: A Framework for Multi-Agent Social Simulation Powered by Large Language Models,https://arxiv.org/abs/2410.07055
-052,Causal Reasoning and Large Language Models: Opening a New Frontier for Causality,https://arxiv.org/abs/2305.00050
-053,Challenges and Opportunities of LLM-Based Synthetic Personae and Data in HCI,https://doi.org/10.1145/3613905.3636293
-054,ChatGPT as a research proxy: simulating human attitudes in social science research,https://doi.org/10.1007/s42001-025-00452-1
-055,ChatGPT does not replicate human moral judgments across diverse domains,https://doi.org/10.1038/s41598-024-57229-1
-056,ChatGPT Outperforms Crowd Workers for Text-Annotation Tasks,https://doi.org/10.1073/pnas.2305016120
-057,Chinese Court Simulation with LLM-Based Agents System,https://doi.org/10.18653/v1/2026.findings-acl.411
-058,CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation,https://doi.org/10.18653/v1/2025.emnlp-industry.15
-059,CompeteAI: Understanding the Competition Dynamics of Large Language Model-based Agents,https://arxiv.org/abs/2310.17512
-060,Competing LLM Agents in a Dynamic Opinion Landscape: The Impact of Public Opinion Polarisation on Contention Over Time,https://arxiv.org/abs/2408.01398
-061,Computational Basis of Large Language Models’ Decision Making in Social Simulation,https://doi.org/10.1177/00811750261421220
-062,Computational ethnography and public health: Scaling and deepening lived experience research on social determinants of health with large language models,https://doi.org/10.1016/j.puhe.2025.105973
-063,Consumer segmentation with large language models,https://doi.org/10.1016/j.jretconser.2024.104078
-064,Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM Agents,https://doi.org/10.48550/arXiv.2404.16698
-065,Correcting the Measurement Errors of AI-Assisted Labeling in Image Analysis Using Design-Based Supervised Learning,https://doi.org/10.1177/00491241251333372
-066,CultureLLM: Incorporating Cultural Differences into Large Language Models,https://arxiv.org/abs/2402.10946
-067,Detecting cyber employment fraud in platform-based space: A multi-agent large language model approach,https://doi.org/10.1016/j.jcrimjus.2026.102692
-068,Do large language models shop like people? Comparing GPT and human food choices using discrete choice experiments,https://doi.org/10.1016/j.foodqual.2026.105930
-069,Do LLM Agents Exhibit Social Behavior?,https://doi.org/10.48550/arXiv.2312.15198
-070,Do LLMs Track Public Opinion? A Multi-Model Study of Favorability Predictions in the 2024 U.S. Presidential Election,https://doi.org/10.48550/arXiv.2602.06302
-071,Does GPT-3 know what the Most Important Issue is? Using Large Language Models to Code Open-Text Social Survey Responses At Scale,https://doi.org/10.2139/ssrn.4310154
-072,Donald Trumps in the Virtual Polls: Simulating and Predicting Public Opinions in Surveys Using Large Language Models,https://arxiv.org/abs/2501.09342
-073,EcoLANG: Efficient and Effective Agent Communication Language Induction for Social Simulation,https://doi.org/10.48550/arXiv.2505.06904
-074,EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,https://arxiv.org/abs/2310.10436
-075,Economic Anthropology in the Era of Generative Artificial Intelligence,https://arxiv.org/abs/2410.15238
-076,Economics Arena for Large Language Models,https://arxiv.org/abs/2401.01735
-077,ElectionSim: Massive Population Election Simulation Powered by Large Language Model Driven Agents,https://arxiv.org/abs/2501.15601
-078,Emergence of human-like polarization among large language model agents,https://doi.org/10.48550/arXiv.2501.05171
-079,Emergence of Social Norms in Generative Agent Societies: Principles and Architecture,https://arxiv.org/abs/2502.16162
-080,Emergent cooperation and strategy adaptation in multi-agent systems: An extended coevolutionary theory with LLMs,https://doi.org/10.3390/electronics12122722
-081,Emulating Public Opinion: A Proof-of-Concept of AI-Generated Synthetic Survey Responses for the Chilean Case,https://doi.org/10.3390/socsci13080417
-082,Energy Social Surveys Replicated with Large Language Model Agents,https://doi.org/10.2139/ssrn.4686345
-083,Epidemic Modeling with Generative Agents,https://arxiv.org/abs/2307.04986
-084,Ethnography and artificial intelligence: the question of context,https://academic.oup.com/anncom/article/50/1/66/8404611
-085,Evaluating Collective Behaviour of Hundreds of LLM Agents,https://doi.org/10.48550/arXiv.2602.16662
-086,Evaluating LLMs as Human Surrogates in Controlled Experiments,https://arxiv.org/abs/2502.07292
-087,Evaluating Silicon Sampling: LLM Accuracy in Simulating Public Opinion on Facial Recognition Technology,https://doi.org/10.54941/ahfe1006738
-088,Examining inverse generative social science to study targets of interest,https://doi.org/10.1017/S0140525X23002718
-089,ExpertIVS: Sociological Expert Driven Individual Value Simulation in Large Language Models,https://arxiv.org/abs/2503.19511
-090,Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View,https://doi.org/10.48550/arXiv.2310.02124
-091,Exploring Large Language Model Agents for Piloting Social Experiments,https://doi.org/10.48550/arXiv.2508.08678
-092,Exploring potential and limitations of virtual respondents: A comparison between ChatGPT and a probability-based online panel,https://doi.org/10.1177/08944393241293132
-093,Exploring Prosocial Irrationality for LLM Agents: A Social Cognition View,https://openreview.net/forum?id=anxYEohntP&noteId=f1Mwq1sBP8
-094,Exploring Silicon-Based Societies: An Early Study of the Moltbook Agent Community,https://doi.org/10.48550/arXiv.2602.02613
-095,Exploring the Capacity of Large Language Models to Simulate Students’ Scientific Thinking: Insights for Responsive Teaching,https://doi.org/10.1007/s10956-026-10333-5
-096,Exploring the Intersection of Large Language Models and Agent-Based Modeling via Prompt Engineering,https://doi.org/10.48550/arXiv.2308.07411
-097,Financial Stability Implications of Generative AI: Taming the Animal Spirits,https://doi.org/10.17016/FEDS.2025.090
-098,Finetuning LLMs for Human Behavior Prediction in Social Science Experiments,https://doi.org/10.48550/arXiv.2509.05830
-099,Framework-based qualitative analysis of free responses of Large Language Models: Algorithmic fidelity,https://doi.org/10.1371/journal.pone.0300024
-100,From a Tiny Slip to a Giant Leap: An LLM-Based Simulation for Fake News Evolution,https://arxiv.org/abs/2410.11924
-101,From Blueprint to Reality: Can Large Language Models Simulate Putnam's Social Capital?,https://arxiv.org/abs/2502.12635
-102,From Codebooks to Promptbooks: Extracting Information from Text with Generative Large Language Models,https://doi.org/10.1177/00491241251336794
-103,From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents,https://arxiv.org/abs/2410.19741
-104,From tools to partners: How large language models are transforming urban planning,https://doi.org/10.1016/j.aiopen.2025.11.001
-105,Further explorations on the use of large language models for thematic analysis: open-ended prompts better terminologies and thematic maps,https://doi.org/10.17169/fqs-25.3.4196
-106,Generating and Evaluating Tests for K-12 Students with Language Model Simulations: A Case Study on Sentence Reading Efficiency,https://doi.org/10.18653/v1/2023.emnlp-main.135
-107,Generating Faithful Synthetic Data with Large Language Models: A Case Study in Computational Social Science,https://doi.org/10.48550/arXiv.2305.15041
-108,"Generative Agent Simulations of 1,000 People",https://arxiv.org/abs/2411.10109
-109,Generative agent-based modeling with actions grounded in physical social or digital space using Concordia,https://doi.org/10.48550/arXiv.2312.03664
-110,Generative agent-based modeling: an introduction and tutorial,https://arxiv.org/abs/2501.02087
-111,Generative Agent-Based Modeling: Unveiling Social System Dynamics through Coupling Mechanistic Models with Generative Artificial Intelligence,https://arxiv.org/abs/2309.11456
-112,Generative agents for urban mobility: A cognitive framework for realistic travel behavior simulation,https://doi.org/10.1016/j.simpat.2025.103234
-113,Generative Agents: Interactive Simulacra of Human Behavior,https://arxiv.org/abs/2304.03442
-114,Generative AI and simulation modeling: What do we need to know?,https://doi.org/10.1002/sdr.1773
-115,Generative AI for corpus approaches to discourse studies: A critical evaluation of ChatGPT,https://doi.org/10.1016/j.acorp.2023.100082
-116,Generative AI for Social Interaction Analysis: A Study of COVID-19 Video Comment Threads,https://doi.org/10.1111/jpr.12602
-117,Generative AI in the Social Sciences: Toward Critical Integration and Methodological Innovation,https://doi.org/10.31235/osf.io/f8dr5_v1
-118,Generative AI Meets Open-Ended Survey Responses: Research Participant Use of AI and Homogenization,https://doi.org/10.1177/00491241251327130
-119,Generative Multimodal Models for Social Science: An Application with Satellite and Streetscape Imagery,https://arxiv.org/abs/2406.02966
-120,Generative Organizational Behavior Simulation with Large Language Model Agents,https://arxiv.org/abs/2501.03879
-121,GPT is an effective tool for multilingual psychological text analysis,https://doi.org/10.1073/pnas.2308950121
-122,"GPT-ology, Computational Models, Silicon Sampling: How should we think about LLMs in Cognitive Science?",https://doi.org/10.48550/arXiv.2406.09464
-123,Higher-Order Binding of Language Model Virtual Personas: A Study on Approximating Political Partisan Misperceptions,https://doi.org/10.48550/arXiv.2504.11673
-124,How Accurate are GPT-3's Hypotheses About Social Science Phenomena?,https://doi.org/10.1007/s44206-023-00054-2
-125,How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation,https://arxiv.org/abs/2404.01273
-126,How well can large language model agents simulate complex legal dispute resolution?,https://doi.org/10.1007/s10506-026-09518-5
-127,How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?,https://doi.org/10.48550/arXiv.2602.18464
-128,Humanoid Agents: Platform for Simulating Human-like Generative Agents,https://arxiv.org/abs/2310.05418
-129,ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents,https://doi.org/10.48550/arXiv.2509.25299
-130,Improving Interpersonal Communication by Simulating Audiences with Language Models,https://doi.org/10.48550/ARXIV.2311.00687
-131,Improving Language Model Personas via Rationalization with Psychological Scaffolds,https://doi.org/10.48550/arXiv.2504.17993
-132,In Silico Sociology: Forecasting COVID-19 Polarization via Large Language Models,https://arxiv.org/abs/2311.14516
-133,Innovative Artificial Intelligence-Assisted Systems for Social Science Research: Architecture Design and Applied Practice,https://doi.org/10.1002/aiv2.70003
-134,Integrating Generative Artificial Intelligence into Social Science Research: Measurement Prompting and Simulation,https://doi.org/10.1177/00491241251339184
-135,Integrating LLM in Agent-Based Social Simulation: Opportunities and Challenges,https://doi.org/10.48550/arXiv.2507.19364
-136,Integrating machine behavior into human subject experiments: a user-friendly toolkit and an application to framed prisoner’s dilemmas,https://doi.org/10.1017/eec.2025.10038
-137,InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation,https://doi.org/10.48550/arXiv.2602.20294
-138,Inverse Generative Social Science: Backward to the Future,https://arxiv.org/abs/2303.11414
-139,Investigating and Extending Homans' Social Exchange Theory in LLM-Based Multi-Agent Systems,https://arxiv.org/abs/2502.13058
-140,Investigating emergent goal-like behaviour in large language models using experimental economics,https://arxiv.org/abs/2405.01575
-141,Item-Mean Surrogates: Why Richer Persona Data Fail to Improve LLMs as Human Surrogates,https://arxiv.org/abs/2504.04089
-142,Judge AI: A Case-Study of Large Language Models as Judges,https://doi.org/10.1177/2755323X261433614
-143,Language Evolution for Evading Social Media Regulation via Large Language Model Agents,https://arxiv.org/abs/2405.16460
-144,Language Model Fine-Tuning on Scaled Survey Data for Predicting Distributions of Public Opinions,https://doi.org/10.18653/v1/2025.acl-long.1028
-145,Language Models and Cognitive Automation for Economic Research,https://doi.org/10.3386/w30957
-146,Language Models Trained on Media Diets Can Predict Public Opinion,https://doi.org/10.48550/arXiv.2303.16779
-147,Language-Driven Opinion Dynamics with Large Language Models,https://arxiv.org/abs/2405.08125
-148,Large Language Model-Driven Multi-Agent Simulation of Online Firestorms,https://doi.org/10.3390/app16125870
-149,Large language models as experimental systems in human psychopathology: a modelling study,https://doi.org/10.1016/j.landig.2026.101014
-150,Large Language Models as Psychological Simulators: A Methodological Guide,https://doi.org/10.1177/25152459251410153
-151,Large language models as simulated economic agents: What can we learn from Homo Silicus?,https://arxiv.org/abs/2301.07543
-152,Large Language Models as Subpopulation Representative Models: A Review,https://arxiv.org/abs/2310.17888
-153,Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation,https://doi.org/10.48550/arXiv.2402.14744
-154,Large language models as virtual survey respondents: Evaluating sociodemographic response generation,https://doi.org/10.1016/j.chb.2024.108245
-155,Large language models can predict the results of social science experiments,https://doi.org/10.1038/s41586-026-10742-x
-156,Large Language Models Do Not Simulate Human Psychology,https://doi.org/10.48550/arXiv.2508.06950
-157,Large language models empowered agent-based modeling and simulation: a survey and perspectives,https://doi.org/10.1016/j.hcc.2024.100002
-158,Large language models for history philosophy and sociology of science: Interpretive uses methodological challenges and critical perspectives,https://doi.org/10.1016/j.shpsa.2026.102151
-159,Large Language Models in public policy research: methodological opportunities normative standards and potential challenges,https://doi.org/10.1057/s41599-026-08575-0
-160,Large Language Models in Qualitative Analysis: Comparing Traditional and Researcher-Interpreted Approaches,https://doi.org/10.1177/16094069261426100
-161,Large language models show human-like content biases in transmission chain experiments,https://doi.org/10.1073/pnas.2313790121
-162,Large language models simulate intersectional synthetic identities with a budget of one to two dimensions,https://arxiv.org/abs/2502.15465
-163,Large language models that replace human participants can harmfully misportray and flatten identity groups,https://doi.org/10.1038/s42256-025-00986-z
-164,Large Language Models: An Applied Econometric Framework,https://doi.org/10.3386/w33344
-165,Law in Silico: Simulating Legal Society with LLM-Based Agents,https://doi.org/10.18653/v1/2026.findings-acl.396
-166,Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties,https://doi.org/10.48550/arXiv.2510.19299
-167,Leaving Insight to Digital Twins? Promise Progress and Limits of Synthetic Respondents,https://doi.org/10.2478/nimmir-2026-0008
-168,Leveraging LLM-based agents for social science research: Insights from citation network simulations,https://doi.org/10.1057/s41599-025-06193-w
-169,LLM Agents as Social Scientists: Examining Agent-Based Social Simulations,https://arxiv.org/abs/2501.08865
-170,LLM Driven Agents for Echo Chamber Formation,https://arxiv.org/abs/2406.11212
-171,LLM Social Simulations Are a Promising Research Method,https://arxiv.org/abs/2404.02237
-172,LLM-Agent-based Social Simulation for Attitude Diffusion,https://doi.org/10.48550/arXiv.2604.03898
-173,LLM-Augmented Agent-Based Modelling for Social Simulations: Challenges and Opportunities,https://doi.org/10.48550/arXiv.2405.06700
-174,LLM-Mirror: A Generated-Persona Approach for Survey Pre-Testing,https://arxiv.org/abs/2502.10385
-175,LLMs and Generative Agent-Based Models for Complex Systems Research,https://doi.org/10.1007/s10588-024-09396-x
-176,LLMs Can Better Capture Human Judgments--With the Right Prompts,https://arxiv.org/abs/2407.18064
-177,LLMs with Personalities in Multi-issue Negotiation Games,https://arxiv.org/abs/2502.03715
-178,Logic-Enhanced Language Model Agents for Trustworthy Social Simulations,https://arxiv.org/abs/2503.17372
-179,Lyfe Agents: Generative agents for low-cost real-time social interactions,https://arxiv.org/abs/2401.08480
-180,Machine Bias. How Do Generative Language Models Answer Opinion Polls?,https://doi.org/10.1177/00491241251330582
-181,Mind the (Belief) Gap: Evaluating LLMs' Representation of Human Beliefs,https://arxiv.org/abs/2501.08625
-182,MINDECHO: Role-Playing Language Agents for Social Simulation,https://arxiv.org/abs/2503.11625
-183,MindVote: A Framework for LLM-Based Public Opinion Simulation,https://arxiv.org/abs/2502.12731
-184,Mitigating Social Desirability Bias in Random Silicon Sampling,https://doi.org/10.48550/arXiv.2512.22725
-185,Navigating the Risks of Using Large Language Models for Text Annotation in Social Science Research,https://doi.org/10.1177/08944393251366243
-186,Network Formation and Dynamics Among Multi-LLMs,https://arxiv.org/abs/2502.05050
-187,Nicer than Humans? How do Large Language Models Behave in the Prisoner's Dilemma?,https://arxiv.org/abs/2502.12093
-188,OASIS: Open Agents Social Interaction Simulations on One Million Agents,https://arxiv.org/abs/2411.11581
-189,Open Models Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models,https://doi.org/10.48550/arXiv.2401.07115
-190,OpenCity: A Scalable Platform to Simulate Urban Activities with Massive LLM Agents,http://arxiv.org/abs/2410.21286
-191,"Out of One, Many: Using Language Models to Simulate Human Samples",https://doi.org/10.1017/pan.2023.2
-192,Persona Alchemy: Designing Evaluating and Implementing Psychologically-Grounded LLM Agents for Diverse Stakeholder Representation,https://doi.org/10.48550/arXiv.2505.18351
-193,Personality Structured Interview for Large Language Model Simulation in Personality Research,https://arxiv.org/abs/2501.15405
-194,Personalized Prediction of Perceived Message Effectiveness Using Large Language Model Based Digital Twins,https://doi.org/10.48550/arXiv.2602.19403
-195,PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits,https://doi.org/10.48550/arXiv.2305.02547
-196,Personality Traits in Large Language Models,https://arxiv.org/abs/2307.00184
-197,Piercing a Methodological Bubble: Large Language Models and the Social Sciences,https://doi.org/10.1007/s40647-026-00473-8
-198,Political Actor Agent: A Framework for Simulating Political Decision-Making with Large Language Models,https://arxiv.org/abs/2502.10265
-199,Population-Aligned Persona Generation for LLM-based Social Simulation,https://arxiv.org/abs/2502.12922
-200,Prediction-Powered Inference Across Many Tasks for AI Evaluation & Social Science Research,https://doi.org/10.48550/arXiv.2605.29249
-201,Prompting Large Language Models for Topic Modeling,https://arxiv.org/abs/2312.09693
-202,Prompts Pearls Imperfections: Comparing ChatGPT and a Human Researcher in Qualitative Data Analysis,https://doi.org/10.1177/10497323241244669
-203,Public opinion dissemination simulation based on large language model multi-agent systems,https://doi.org/10.1038/s41598-026-44206-z
-204,Qualitative Research Methods for Large Language Models: Conducting Semi-Structured Interviews with ChatGPT and BARD on Computer Science Education,https://doi.org/10.3390/informatics10040078
-205,Quantifying the Impact of Large Language Models on Collective Opinion Dynamics,https://arxiv.org/abs/2502.15856
-206,Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information,https://arxiv.org/abs/2402.18144
-207,Rationality and financial risk aversion in large language models: Evidence from a multi-model Holt–Laury experiment,https://doi.org/10.1016/j.jbef.2026.101235
-208,Real world community oriented high-definition social simulation: Combining reinforcement learning and large language models,https://doi.org/10.1016/j.cities.2025.106468
-209,Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods,https://arxiv.org/abs/2505.19402
-210,Reproducibility and credibility in computational social science: Testing the fidelity of GenAI-generated data,https://doi.org/10.1016/j.joitmc.2026.100792
-211,ResearchTown: Simulator of Human Research Community,https://arxiv.org/abs/2412.17767
-212,S3: Social-network Simulation System with Large Language Model-Empowered Agents,https://arxiv.org/abs/2307.14984
-213,SALM: A Multi-Agent Framework for Language Model-Driven Social Network Simulation,https://doi.org/10.48550/arXiv.2505.09081
-214,Scalable Qualitative Coding with LLMs: Chain-of-Thought Reasoning Matches Human Performance in Some Hermeneutic Tasks,https://arxiv.org/abs/2504.04170
-215,SCALE: Towards Collaborative Content Analysis in Social Science with Large Language Models,https://arxiv.org/abs/2309.11074
-216,"Scaling Synthetic Data Creation with 1,000,000,000 Personas",http://arxiv.org/abs/2406.20094
-217,Seeing economic development like a large language model. A methodological approach to the exploration of geographical imaginaries in generative AI,https://doi.org/10.1016/j.geoforum.2024.104175
-218,Sense and Sensitivity: Evaluating the simulation of social dynamics via Large Language Models,https://arxiv.org/abs/2501.04598
-219,"Shifting Power: Leveraging LLMs to Simulate Human Aversion in ABMs of Bilateral Financial Exchanges, A bond market study",https://doi.org/10.48550/arXiv.2503.00320
-220,Shop-R1: Rewarding LLMs to Simulate Human Behavior in Online Shopping via Reinforcement Learning,https://doi.org/10.48550/arXiv.2507.17842
-221,Silicon Samples: A Review and Outlook on Large Language Models Simulating Human Respondents,https://doi.org/10.1016/j.chb.2025.108621
-222,SimuCourt: Building Judicial Decision-Making Agents with Real-World Court Data,https://arxiv.org/abs/2504.18319
-223,Simulating and Experimenting with Social Media Mobilization Using LLM Agents,https://doi.org/10.48550/arXiv.2510.26494
-224,Simulating Human Decision-Making in Ultimatum Games using Large Language Models,https://doi.org/10.1145/3715928.3737473
-225,Simulating Human Opinions with Large Language Models: Opportunities and Challenges for Personalized Survey Data Modeling,https://doi.org/10.1145/3708319.3733685
-226,Simulating Human Society with Large Language Model Agents: City Social Media and Economic System,https://doi.org/10.1145/3589335.3641253
-227,Simulating Human Strategic Behavior: Comparing Single and Multi-agent LLMs,https://arxiv.org/abs/2502.08189
-228,Simulating Influence Dynamics with Large Language Models,https://arxiv.org/abs/2501.04650
-229,Simulating Opinion Dynamics with Networks of LLM-based Agents,https://arxiv.org/abs/2311.09618
-230,Simulating Public Administration Crisis: A Novel Generative Agent-Based Simulation System to Lower Technology Barriers in Social Science Research,https://arxiv.org/abs/2411.06957
-231,Simulating Rumor Spreading in Social Networks using LLM Agents,https://doi.org/10.48550/arXiv.2502.01450
-232,Simulating Social Media Using Large Language Models to Evaluate Alternative News Feed Algorithms,https://arxiv.org/abs/2310.05984
-233,Simulating Social Network with LLM Agents: An Analysis of Information Propagation and Echo Chambers,https://doi.org/10.1007/978-981-96-0178-3_5
-234,Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior,https://arxiv.org/abs/2502.02364
-235,Simulating theory and society: large language models and generative artificial intelligence as new tools for sociological theorizing,https://doi.org/10.1007/s11186-025-09606-6
-236,Simulation of language evolution under regulated social media platforms: a synergistic approach of large language models and genetic algorithms,https://arxiv.org/abs/2501.00076
-237,SimUSER: Simulating User Behavior with Large Language Models for Interactive Recommendation,https://arxiv.org/abs/2304.09528
-238,SLALOM: A Structural Linear Assignment Operator for LLM Human Surrogates,https://arxiv.org/abs/2502.13026
-239,Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations,https://doi.org/10.48550/arXiv.2311.06330
-240,Social Cognition Simulation with Large Language Model-driven Agents,https://doi.org/10.16182/j.issn1004731x.joss.25-0612
-241,Social Scientists on the Role of AI in Research,https://arxiv.org/abs/2503.11911
-242,Social Simulations with Large Language Models Risk a Utopian Illusion,https://arxiv.org/abs/2411.14047
-243,SocioVerse: A World Model for Social Simulation Powered by LLM Agents and A Pool of 10 Million Real-World Users,https://arxiv.org/abs/2501.05489
-244,Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations,https://doi.org/10.48550/arXiv.2502.07068
-245,Start Generating: Harnessing Generative Artificial Intelligence for Sociological Research,https://doi.org/10.1177/07311214241292178
-246,Survey on LLM-Based Social Agents in Game-Theoretic Scenarios,https://arxiv.org/abs/2502.13203
-247,Synthetic ethnography: Field devices for the qualitative study of generative models,https://doi.org/10.1177/20539517241303126
-248,Synthetic Replacements for Human Survey Data? The Perils of Large Language Models,https://doi.org/10.1017/pan.2024.5
-249,Take caution in using LLMs as human surrogates,https://doi.org/10.1038/s42256-024-00913-0
-250,Teaching via LLM-enhanced simulations: Authenticity and barriers to suspension of disbelief,https://doi.org/10.1016/j.iheduc.2024.100990
-251,Testing theories of political persuasion using AI,https://doi.org/10.1073/pnas.2412815122
-252,The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective,https://doi.org/10.2139/ssrn.4650172
-253,The emergence of economic rationality of GPT,https://doi.org/10.1073/pnas.2316205121
-254,The Emergence of Social Science of Large Language Models,https://doi.org/10.1038/s41562-024-01953-6
-255,The Mixed Subjects Design: Treating Large Language Models as Potentially Informative Observations,https://doi.org/10.1177/00491241251326865
-256,The Roots of International Perceptions: Simulating US Attitude Changes Towards China with LLM Agents,https://doi.org/10.48550/arXiv.2508.08837
-257,The Silicon Reasonable Person: Can AI Predict How Ordinary People Judge Reasonableness?,https://doi.org/10.48550/arXiv.2508.02766
-258,The Silicon Society Cookbook: Design Space of LLM-based Social Simulations,https://doi.org/10.48550/arXiv.2605.00197
-259,The threat of analytic flexibility in using large language models to simulate human data: A call to attention,https://doi.org/10.48550/arXiv.2509.13397
-260,The use and methodological reporting of large language models in qualitative research: a scoping review,https://doi.org/10.1186/s12874-026-02913-1
-261,Thematic analysis with open-source generative AI and machine learning: a new method for inductive qualitative codebook development,https://doi.org/10.1057/s41599-026-06508-5
-262,Too Human to Model? Large Language Models and the Limits of Simulating Human Behaviour,https://arxiv.org/abs/2507.06483
-263,TopicGPT: A Prompt-based Topic Modeling Framework,https://arxiv.org/abs/2311.01449
-264,Towards a Design Guideline for RPA Evaluation: A Survey of Large Language Model-Based Role-Playing Agents,https://doi.org/10.48550/arXiv.2502.13012
-265,Towards Coding Social Science Datasets with Language Models,http://arxiv.org/abs/2306.02177
-266,Towards operational validation of LLM-agent social simulations: a replicated study of a Reddit-like technology forum,https://arxiv.org/abs/2507.12587
-267,Towards Valid Student Simulation with Large Language Models,https://arxiv.org/abs/2601.05473
-268,"Twin-2K-500: A dataset for building digital twins of over 2,000 people based on their answers to over 500 questions",https://doi.org/10.48550/arXiv.2505.17479
-269,Unveiling Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation,https://arxiv.org/abs/2502.03453
-270,Updating “The Future of Coding”: Qualitative Coding with Generative Large Language Models,https://doi.org/10.1177/08944393241284154
-271,"User Simulation in the Era of Generative AI: User Modeling, Synthetic Data Generation, and System Evaluation",https://arxiv.org/abs/2501.04410
-272,Using Imperfect Surrogates: A General Framework of Design-based Supervised Learning for Social Science Applications of Large Language Models,https://doi.org/10.1177/00491241251315387
-273,Using Large Language Models for Qualitative Analysis can Introduce Serious Bias,https://doi.org/10.1177/00491241251338246
-274,Using large language models for survey research in communication: opportunities and challenges,https://doi.org/10.1007/s44382-025-00014-z
-275,Using large language models in psychology,https://doi.org/10.1038/s44159-023-00241-5
-276,Using Large Language Models to Create AI Personas for Replication and Prediction of Media Effects: An Empirical Test of 133 Published Experimental Research Findings,https://arxiv.org/abs/2408.16073
-277,Using large language models to generate silicon samples in consumer and marketing research: Challenges opportunities and guidelines,https://doi.org/10.1002/mar.21982
-278,Using Large Language Models to Simulate Human Behavioural Experiments: Port of Mars,https://doi.org/10.48550/arXiv.2506.05555
-279,Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies,https://doi.org/10.48550/arXiv.2208.10264
-280,Validation is the central challenge for generative social simulation: a critical review of LLMs in agent-based modeling,https://doi.org/10.1007/s10462-025-11412-6
-281,Virtual Personas for Language Models via an Anthology of Backstories,https://doi.org/10.48550/arXiv.2407.06576
-282,What Limits LLM-based Human Simulation: LLMs or Our Design?,https://arxiv.org/abs/2501.08579
-283,Whose Opinions Do Language Models Reflect?,https://arxiv.org/abs/2303.17548
-284,Will Scaling Improve Social Simulation with LLMs?,https://arxiv.org/abs/2607.02464
-285,Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma,https://doi.org/10.48550/arXiv.2501.16173
-286,Will Trump Win in 2024? Predicting the US Presidential Election via Multi-step Reasoning with Large Language Models,https://arxiv.org/abs/2411.03321
-287,Wisdom of the silicon crowd: LLM ensemble prediction capabilities rival human crowd accuracy,https://doi.org/10.1126/sciadv.adp1528
-288,Y Social: an LLM-powered Social Media Digital Twin,https://arxiv.org/abs/2408.00818
+paper_id,Title,Year,Link
+001,"""Guinea Pig Trials"" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion",2023,https://arxiv.org/abs/2308.10974
+002,12 best practices for leveraging Generative AI in experimental research,2026,https://doi.org/10.1016/j.jebo.2026.107564
+003,A foundation model to predict and capture human cognition,2025,https://doi.org/10.1038/s41586-025-09215-4
+004,A large-scale replication of scenario-based experiments in psychology and management using large language models,2025,https://doi.org/10.1038/s43588-025-00840-7
+005,A Methodological Guide on Using Large Language Models for Reproducible Text Annotation in the Social Sciences and Humanities with Python and R,2026,https://arxiv.org/abs/2604.09638
+006,A novel human-in-the-loop computational grounded theory framework for big social data,2025,https://doi.org/10.1177/20539517251347598
+007,A quasi-experimental analysis of capabilities and limitations of generative AI in academic content evaluation in social sciences,2025,https://doi.org/10.1016/j.ipm.2025.104365
+008,A scalable framework for building and validating knowledge-driven synthetic consumer agents with large language models,2026,https://doi.org/10.1016/j.jii.2026.101183
+009,A survey of social network simulation in the LLM era: From classical models to Generative Agents,2026,https://doi.org/10.1016/j.knosys.2026.116947
+010,AcademiaOS: Automating Grounded Theory Development in Qualitative Research with Large Language Models,2024,https://arxiv.org/abs/2403.08844
+011,Affordable Generative Agents,2024,https://arxiv.org/abs/2402.02053
+012,Agent-based Modeling meets the Capability Approach for Human Development: Simulating Homelessness Policy-making,2025,https://doi.org/10.48550/arXiv.2503.18389
+013,Agent-Based Modelling Meets Generative AI: A Framework for Social Simulation,2024,https://arxiv.org/abs/2401.10242
+014,Agent-Kernel: A MicroKernel Multi-Agent System Framework for Adaptive Social Simulation Powered by LLMs,2025,https://doi.org/10.48550/arXiv.2512.01610
+015,Agentic AI for Sustainable Development: Leveraging Large Language Model-Enhanced Agent-Based Modeling for Complex Policy Strategies,2025,https://doi.org/10.1177/27523543251365678
+016,AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society,2026,https://arxiv.org/abs/2502.08691
+017,AI Agents Alone Are Not (Yet) Sufficient for Social Simulation,2026,https://arxiv.org/abs/2411.16383
+018,AI and the transformation of social science research,2023,https://doi.org/10.1126/science.adi1778
+019,AI Automatons: AI Systems Intended to Imitate Humans,2025,https://arxiv.org/abs/2410.06321
+020,AI for social science and social science of AI: A Survey,2024,http://arxiv.org/abs/2401.11839
+021,AI-Augmented Surveys: Leveraging Large Language Models and Surveys for Opinion Prediction,2023,https://arxiv.org/abs/2305.09620
+022,AITurk: Using ChatGPT for Social Science Research,2024,https://doi.org/10.2139/ssrn.4922861
+023,An evolutionary model of personality traits related to cooperative behavior using a large language model,2024,https://arxiv.org/abs/2501.04663
+024,Artificial Leviathan: Exploring Social Evolution of LLM Agents Through the Lens of Hobbesian Social Contract Theory,2024,https://doi.org/10.48550/arXiv.2406.14373
+025,Assessing the Reliability of Persona-Conditioned LLMs as Synthetic Survey Respondents,2026,https://doi.org/10.48550/arXiv.2602.18462
+026,Automated Social Science: Language Models as Scientist and Subjects,2024,https://doi.org/10.3386/w32381
+027,Automating the qualitative interview? Using Gen AI chatbots in social science research,2026,https://doi.org/10.1177/20597991261448157
+028,AutoSurvey: Large Language Models Can Automatically Write Surveys,2024,https://arxiv.org/abs/2306.10252
+029,Balancing Large Language Model Alignment and Algorithmic Fidelity in Social Science Research,2025,https://doi.org/10.1177/00491241251342008
+030,Believable urban planning via large language model-enabled behavior modeling: A conceptual framework,2026,https://doi.org/10.1016/j.cities.2026.107243
+031,Best Practices for Text Annotation with Large Language Models,2024,https://doi.org/10.48550/ARXIV.2402.05129
+032,Beyond Demographics: Aligning Role-playing LLM-based Agents Using Human Belief Networks,2024,https://arxiv.org/abs/2501.04692
+033,Beyond Profile: From Surface-Level Facts to Deep Persona Simulation in LLMs,2025,https://arxiv.org/abs/2502.12958
+034,Beyond static responses: multi-agent LLM systems as a new paradigm for social science research,2026,https://arxiv.org/abs/2506.01235
+035,Blind Judgement: Agent-Based Supreme Court Modelling With GPT,2023,https://arxiv.org/abs/2309.13153
+036,Can A Society of Generative Agents Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine Hesitancy,2025,https://doi.org/10.48550/arXiv.2503.09639
+037,Can AI language models replace human participants?,2023,https://doi.org/10.1016/j.tics.2023.04.008
+038,Can ChatGPT Perform a Grounded Theory Approach to Do Risk Analysis? An Empirical Study,2024,https://doi.org/10.1080/07421222.2024.2415772
+039,Can Generative AI agents behave like humans? Evidence from laboratory market experiments,2025,https://arxiv.org/abs/2505.07457
+040,Can Generative AI improve social science?,2024,https://doi.org/10.1073/pnas.2314021121
+041,Can Large Language Model Agents Simulate Human Trust Behavior?,2024,https://arxiv.org/abs/2402.04559
+042,Can large language models build causal graphs?,2023,https://arxiv.org/abs/2303.05279
+043,Can Large Language Models Capture Public Opinion about Global Warming? An Empirical Assessment of Algorithmic Fidelity and Bias,2023,https://arxiv.org/abs/2310.11757
+044,Can Large Language Models emulate an inductive Thematic Analysis of semi-structured interviews? An exploration and provocation on the limits of the approach and the model,2023,https://arxiv.org/abs/2305.13014
+045,Can Large Language Models Replace Economic Choice Prediction Labs?,2024,https://arxiv.org/abs/2501.02336
+046,Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for Qualitative Data Analysis,2024,https://arxiv.org/abs/2402.01386
+047,Can Large Language Models Trade? Testing Financial Theories with LLM Agents in Market Simulations,2025,https://arxiv.org/abs/2504.10789
+048,Can Large Language Models Transform Computational Social Science?,2024,https://doi.org/10.48550/arXiv.2305.03514
+049,Can LLMs Simulate Human Cognition Beyond Behavioral Imitation?,2026,https://arxiv.org/abs/2502.07255
+050,Can LLMs Simulate Social Media Engagement? A Study of LLM-Based Human Simulation in Online Platforms,2025,https://arxiv.org/abs/2407.10172
+051,Casevo: A Framework for Multi-Agent Social Simulation Powered by Large Language Models,2024,https://arxiv.org/abs/2410.07055
+052,Causal Reasoning and Large Language Models: Opening a New Frontier for Causality,2023,https://arxiv.org/abs/2305.00050
+053,Challenges and Opportunities of LLM-Based Synthetic Personae and Data in HCI,2024,https://doi.org/10.1145/3613905.3636293
+054,ChatGPT as a research proxy: simulating human attitudes in social science research,2025,https://doi.org/10.1007/s42001-025-00452-1
+055,ChatGPT does not replicate human moral judgments across diverse domains,2025,https://doi.org/10.1038/s41598-024-57229-1
+056,ChatGPT Outperforms Crowd Workers for Text-Annotation Tasks,2023,https://doi.org/10.1073/pnas.2305016120
+057,Chinese Court Simulation with LLM-Based Agents System,2026,https://doi.org/10.18653/v1/2026.findings-acl.411
+058,CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation,2025,https://doi.org/10.18653/v1/2025.emnlp-industry.15
+059,CompeteAI: Understanding the Competition Dynamics of Large Language Model-based Agents,2024,https://arxiv.org/abs/2310.17512
+060,Competing LLM Agents in a Dynamic Opinion Landscape: The Impact of Public Opinion Polarisation on Contention Over Time,2025,https://arxiv.org/abs/2408.01398
+061,Computational Basis of Large Language Models’ Decision Making in Social Simulation,2026,https://doi.org/10.1177/00811750261421220
+062,Computational ethnography and public health: Scaling and deepening lived experience research on social determinants of health with large language models,2025,https://doi.org/10.1016/j.puhe.2025.105973
+063,Consumer segmentation with large language models,2024,https://doi.org/10.1016/j.jretconser.2024.104078
+064,Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM Agents,2024,https://doi.org/10.48550/arXiv.2404.16698
+065,Correcting the Measurement Errors of AI-Assisted Labeling in Image Analysis Using Design-Based Supervised Learning,2025,https://doi.org/10.1177/00491241251333372
+066,CultureLLM: Incorporating Cultural Differences into Large Language Models,2024,https://arxiv.org/abs/2402.10946
+067,Detecting cyber employment fraud in platform-based space: A multi-agent large language model approach,2026,https://doi.org/10.1016/j.jcrimjus.2026.102692
+068,Do large language models shop like people? Comparing GPT and human food choices using discrete choice experiments,2026,https://doi.org/10.1016/j.foodqual.2026.105930
+069,Do LLM Agents Exhibit Social Behavior?,2023,https://doi.org/10.48550/arXiv.2312.15198
+070,Do LLMs Track Public Opinion? A Multi-Model Study of Favorability Predictions in the 2024 U.S. Presidential Election,2026,https://doi.org/10.48550/arXiv.2602.06302
+071,Does GPT-3 know what the Most Important Issue is? Using Large Language Models to Code Open-Text Social Survey Responses At Scale,2023,https://doi.org/10.2139/ssrn.4310154
+072,Donald Trumps in the Virtual Polls: Simulating and Predicting Public Opinions in Surveys Using Large Language Models,2024,https://arxiv.org/abs/2501.09342
+073,EcoLANG: Efficient and Effective Agent Communication Language Induction for Social Simulation,2025,https://doi.org/10.48550/arXiv.2505.06904
+074,EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,2024,https://arxiv.org/abs/2310.10436
+075,Economic Anthropology in the Era of Generative Artificial Intelligence,2024,https://arxiv.org/abs/2410.15238
+076,Economics Arena for Large Language Models,2024,https://arxiv.org/abs/2401.01735
+077,ElectionSim: Massive Population Election Simulation Powered by Large Language Model Driven Agents,2024,https://arxiv.org/abs/2501.15601
+078,Emergence of human-like polarization among large language model agents,2025,https://doi.org/10.48550/arXiv.2501.05171
+079,Emergence of Social Norms in Generative Agent Societies: Principles and Architecture,2024,https://arxiv.org/abs/2502.16162
+080,Emergent cooperation and strategy adaptation in multi-agent systems: An extended coevolutionary theory with LLMs,2023,https://doi.org/10.3390/electronics12122722
+081,Emulating Public Opinion: A Proof-of-Concept of AI-Generated Synthetic Survey Responses for the Chilean Case,2025,https://doi.org/10.3390/socsci13080417
+082,Energy Social Surveys Replicated with Large Language Model Agents,2024,https://doi.org/10.2139/ssrn.4686345
+083,Epidemic Modeling with Generative Agents,2023,https://arxiv.org/abs/2307.04986
+084,Ethnography and artificial intelligence: the question of context,2026,https://academic.oup.com/anncom/article/50/1/66/8404611
+085,Evaluating Collective Behaviour of Hundreds of LLM Agents,2026,https://doi.org/10.48550/arXiv.2602.16662
+086,Evaluating LLMs as Human Surrogates in Controlled Experiments,2026,https://arxiv.org/abs/2502.07292
+087,Evaluating Silicon Sampling: LLM Accuracy in Simulating Public Opinion on Facial Recognition Technology,2025,https://doi.org/10.54941/ahfe1006738
+088,Examining inverse generative social science to study targets of interest,2024,https://doi.org/10.1017/S0140525X23002718
+089,ExpertIVS: Sociological Expert Driven Individual Value Simulation in Large Language Models,2026,https://arxiv.org/abs/2503.19511
+090,Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View,2024,https://doi.org/10.48550/arXiv.2310.02124
+091,Exploring Large Language Model Agents for Piloting Social Experiments,2025,https://doi.org/10.48550/arXiv.2508.08678
+092,Exploring potential and limitations of virtual respondents: A comparison between ChatGPT and a probability-based online panel,2025,https://doi.org/10.1177/08944393241293132
+093,Exploring Prosocial Irrationality for LLM Agents: A Social Cognition View,2024,https://openreview.net/forum?id=anxYEohntP&noteId=f1Mwq1sBP8
+094,Exploring Silicon-Based Societies: An Early Study of the Moltbook Agent Community,2026,https://doi.org/10.48550/arXiv.2602.02613
+095,Exploring the Capacity of Large Language Models to Simulate Students’ Scientific Thinking: Insights for Responsive Teaching,2026,https://doi.org/10.1007/s10956-026-10333-5
+096,Exploring the Intersection of Large Language Models and Agent-Based Modeling via Prompt Engineering,2023,https://doi.org/10.48550/arXiv.2308.07411
+097,Financial Stability Implications of Generative AI: Taming the Animal Spirits,2025,https://doi.org/10.17016/FEDS.2025.090
+098,Finetuning LLMs for Human Behavior Prediction in Social Science Experiments,2025,https://doi.org/10.48550/arXiv.2509.05830
+099,Framework-based qualitative analysis of free responses of Large Language Models: Algorithmic fidelity,2024,https://doi.org/10.1371/journal.pone.0300024
+100,From a Tiny Slip to a Giant Leap: An LLM-Based Simulation for Fake News Evolution,2024,https://arxiv.org/abs/2410.11924
+101,From Blueprint to Reality: Can Large Language Models Simulate Putnam's Social Capital?,2026,https://arxiv.org/abs/2502.12635
+102,From Codebooks to Promptbooks: Extracting Information from Text with Generative Large Language Models,2025,https://doi.org/10.1177/00491241251336794
+103,From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents,2026,https://arxiv.org/abs/2410.19741
+104,From tools to partners: How large language models are transforming urban planning,2025,https://doi.org/10.1016/j.aiopen.2025.11.001
+105,Further explorations on the use of large language models for thematic analysis: open-ended prompts better terminologies and thematic maps,2024,https://doi.org/10.17169/fqs-25.3.4196
+106,Generating and Evaluating Tests for K-12 Students with Language Model Simulations: A Case Study on Sentence Reading Efficiency,2023,https://doi.org/10.18653/v1/2023.emnlp-main.135
+107,Generating Faithful Synthetic Data with Large Language Models: A Case Study in Computational Social Science,2023,https://doi.org/10.48550/arXiv.2305.15041
+108,"Generative Agent Simulations of 1,000 People",2024,https://arxiv.org/abs/2411.10109
+109,Generative agent-based modeling with actions grounded in physical social or digital space using Concordia,2023,https://doi.org/10.48550/arXiv.2312.03664
+110,Generative agent-based modeling: an introduction and tutorial,2024,https://arxiv.org/abs/2501.02087
+111,Generative Agent-Based Modeling: Unveiling Social System Dynamics through Coupling Mechanistic Models with Generative Artificial Intelligence,2023,https://arxiv.org/abs/2309.11456
+112,Generative agents for urban mobility: A cognitive framework for realistic travel behavior simulation,2025,https://doi.org/10.1016/j.simpat.2025.103234
+113,Generative Agents: Interactive Simulacra of Human Behavior,2023,https://arxiv.org/abs/2304.03442
+114,Generative AI and simulation modeling: What do we need to know?,2024,https://doi.org/10.1002/sdr.1773
+115,Generative AI for corpus approaches to discourse studies: A critical evaluation of ChatGPT,2023,https://doi.org/10.1016/j.acorp.2023.100082
+116,Generative AI for Social Interaction Analysis: A Study of COVID-19 Video Comment Threads,2026,https://doi.org/10.1111/jpr.12602
+117,Generative AI in the Social Sciences: Toward Critical Integration and Methodological Innovation,2025,https://doi.org/10.31235/osf.io/f8dr5_v1
+118,Generative AI Meets Open-Ended Survey Responses: Research Participant Use of AI and Homogenization,2025,https://doi.org/10.1177/00491241251327130
+119,Generative Multimodal Models for Social Science: An Application with Satellite and Streetscape Imagery,2025,https://arxiv.org/abs/2406.02966
+120,Generative Organizational Behavior Simulation with Large Language Model Agents,2024,https://arxiv.org/abs/2501.03879
+121,GPT is an effective tool for multilingual psychological text analysis,2024,https://doi.org/10.1073/pnas.2308950121
+122,"GPT-ology, Computational Models, Silicon Sampling: How should we think about LLMs in Cognitive Science?",2024,https://doi.org/10.48550/arXiv.2406.09464
+123,Higher-Order Binding of Language Model Virtual Personas: A Study on Approximating Political Partisan Misperceptions,2025,https://doi.org/10.48550/arXiv.2504.11673
+124,How Accurate are GPT-3's Hypotheses About Social Science Phenomena?,2023,https://doi.org/10.1007/s44206-023-00054-2
+125,How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation,2025,https://arxiv.org/abs/2404.01273
+126,How well can large language model agents simulate complex legal dispute resolution?,2026,https://doi.org/10.1007/s10506-026-09518-5
+127,How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?,2026,https://doi.org/10.48550/arXiv.2602.18464
+128,Humanoid Agents: Platform for Simulating Human-like Generative Agents,2023,https://arxiv.org/abs/2310.05418
+129,ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents,2025,https://doi.org/10.48550/arXiv.2509.25299
+130,Improving Interpersonal Communication by Simulating Audiences with Language Models,2023,https://doi.org/10.48550/ARXIV.2311.00687
+131,Improving Language Model Personas via Rationalization with Psychological Scaffolds,2025,https://doi.org/10.48550/arXiv.2504.17993
+132,In Silico Sociology: Forecasting COVID-19 Polarization via Large Language Models,2024,https://arxiv.org/abs/2311.14516
+133,Innovative Artificial Intelligence-Assisted Systems for Social Science Research: Architecture Design and Applied Practice,2026,https://doi.org/10.1002/aiv2.70003
+134,Integrating Generative Artificial Intelligence into Social Science Research: Measurement Prompting and Simulation,2025,https://doi.org/10.1177/00491241251339184
+135,Integrating LLM in Agent-Based Social Simulation: Opportunities and Challenges,2025,https://doi.org/10.48550/arXiv.2507.19364
+136,Integrating machine behavior into human subject experiments: a user-friendly toolkit and an application to framed prisoner’s dilemmas,2025,https://doi.org/10.1017/eec.2025.10038
+137,InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation,2026,https://doi.org/10.48550/arXiv.2602.20294
+138,Inverse Generative Social Science: Backward to the Future,2023,https://arxiv.org/abs/2303.11414
+139,Investigating and Extending Homans' Social Exchange Theory in LLM-Based Multi-Agent Systems,2025,https://arxiv.org/abs/2502.13058
+140,Investigating emergent goal-like behaviour in large language models using experimental economics,2023,https://arxiv.org/abs/2405.01575
+141,Item-Mean Surrogates: Why Richer Persona Data Fail to Improve LLMs as Human Surrogates,2026,https://arxiv.org/abs/2504.04089
+142,Judge AI: A Case-Study of Large Language Models as Judges,2026,https://doi.org/10.1177/2755323X261433614
+143,Language Evolution for Evading Social Media Regulation via Large Language Model Agents,2024,https://arxiv.org/abs/2405.16460
+144,Language Model Fine-Tuning on Scaled Survey Data for Predicting Distributions of Public Opinions,2025,https://doi.org/10.18653/v1/2025.acl-long.1028
+145,Language Models and Cognitive Automation for Economic Research,2023,https://doi.org/10.3386/w30957
+146,Language Models Trained on Media Diets Can Predict Public Opinion,2023,https://doi.org/10.48550/arXiv.2303.16779
+147,Language-Driven Opinion Dynamics with Large Language Models,2025,https://arxiv.org/abs/2405.08125
+148,Large Language Model-Driven Multi-Agent Simulation of Online Firestorms,2026,https://doi.org/10.3390/app16125870
+149,Large language models as experimental systems in human psychopathology: a modelling study,2026,https://doi.org/10.1016/j.landig.2026.101014
+150,Large Language Models as Psychological Simulators: A Methodological Guide,2025,https://doi.org/10.1177/25152459251410153
+151,Large language models as simulated economic agents: What can we learn from Homo Silicus?,2023,https://arxiv.org/abs/2301.07543
+152,Large Language Models as Subpopulation Representative Models: A Review,2023,https://arxiv.org/abs/2310.17888
+153,Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation,2024,https://doi.org/10.48550/arXiv.2402.14744
+154,Large language models as virtual survey respondents: Evaluating sociodemographic response generation,2025,https://doi.org/10.1016/j.chb.2024.108245
+155,Large language models can predict the results of social science experiments,2026,https://doi.org/10.1038/s41586-026-10742-x
+156,Large Language Models Do Not Simulate Human Psychology,2025,https://doi.org/10.48550/arXiv.2508.06950
+157,Large language models empowered agent-based modeling and simulation: a survey and perspectives,2024,https://doi.org/10.1016/j.hcc.2024.100002
+158,Large language models for history philosophy and sociology of science: Interpretive uses methodological challenges and critical perspectives,2026,https://doi.org/10.1016/j.shpsa.2026.102151
+159,Large Language Models in public policy research: methodological opportunities normative standards and potential challenges,2026,https://doi.org/10.1057/s41599-026-08575-0
+160,Large Language Models in Qualitative Analysis: Comparing Traditional and Researcher-Interpreted Approaches,2026,https://doi.org/10.1177/16094069261426100
+161,Large language models show human-like content biases in transmission chain experiments,2023,https://doi.org/10.1073/pnas.2313790121
+162,Large language models simulate intersectional synthetic identities with a budget of one to two dimensions,2026,https://arxiv.org/abs/2502.15465
+163,Large language models that replace human participants can harmfully misportray and flatten identity groups,2025,https://doi.org/10.1038/s42256-025-00986-z
+164,Large Language Models: An Applied Econometric Framework,2026,https://doi.org/10.3386/w33344
+165,Law in Silico: Simulating Legal Society with LLM-Based Agents,2026,https://doi.org/10.18653/v1/2026.findings-acl.396
+166,Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties,2025,https://doi.org/10.48550/arXiv.2510.19299
+167,Leaving Insight to Digital Twins? Promise Progress and Limits of Synthetic Respondents,2026,https://doi.org/10.2478/nimmir-2026-0008
+168,Leveraging LLM-based agents for social science research: Insights from citation network simulations,2025,https://doi.org/10.1057/s41599-025-06193-w
+169,LLM Agents as Social Scientists: Examining Agent-Based Social Simulations,2026,https://arxiv.org/abs/2501.08865
+170,LLM Driven Agents for Echo Chamber Formation,2025,https://arxiv.org/abs/2406.11212
+171,LLM Social Simulations Are a Promising Research Method,2025,https://arxiv.org/abs/2404.02237
+172,LLM-Agent-based Social Simulation for Attitude Diffusion,2026,https://doi.org/10.48550/arXiv.2604.03898
+173,LLM-Augmented Agent-Based Modelling for Social Simulations: Challenges and Opportunities,2024,https://doi.org/10.48550/arXiv.2405.06700
+174,LLM-Mirror: A Generated-Persona Approach for Survey Pre-Testing,2024,https://arxiv.org/abs/2502.10385
+175,LLMs and Generative Agent-Based Models for Complex Systems Research,2024,https://doi.org/10.1007/s10588-024-09396-x
+176,LLMs Can Better Capture Human Judgments--With the Right Prompts,2026,https://arxiv.org/abs/2407.18064
+177,LLMs with Personalities in Multi-issue Negotiation Games,2024,https://arxiv.org/abs/2502.03715
+178,Logic-Enhanced Language Model Agents for Trustworthy Social Simulations,2024,https://arxiv.org/abs/2503.17372
+179,Lyfe Agents: Generative agents for low-cost real-time social interactions,2023,https://arxiv.org/abs/2401.08480
+180,Machine Bias. How Do Generative Language Models Answer Opinion Polls?,2025,https://doi.org/10.1177/00491241251330582
+181,Mind the (Belief) Gap: Evaluating LLMs' Representation of Human Beliefs,2025,https://arxiv.org/abs/2501.08625
+182,MINDECHO: Role-Playing Language Agents for Social Simulation,2024,https://arxiv.org/abs/2503.11625
+183,MindVote: A Framework for LLM-Based Public Opinion Simulation,2025,https://arxiv.org/abs/2502.12731
+184,Mitigating Social Desirability Bias in Random Silicon Sampling,2025,https://doi.org/10.48550/arXiv.2512.22725
+185,Navigating the Risks of Using Large Language Models for Text Annotation in Social Science Research,2025,https://doi.org/10.1177/08944393251366243
+186,Network Formation and Dynamics Among Multi-LLMs,2024,https://arxiv.org/abs/2502.05050
+187,Nicer than Humans? How do Large Language Models Behave in the Prisoner's Dilemma?,2024,https://arxiv.org/abs/2502.12093
+188,OASIS: Open Agents Social Interaction Simulations on One Million Agents,2024,https://arxiv.org/abs/2411.11581
+189,Open Models Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models,2024,https://doi.org/10.48550/arXiv.2401.07115
+190,OpenCity: A Scalable Platform to Simulate Urban Activities with Massive LLM Agents,2024,http://arxiv.org/abs/2410.21286
+191,"Out of One, Many: Using Language Models to Simulate Human Samples",2023,https://doi.org/10.1017/pan.2023.2
+192,Persona Alchemy: Designing Evaluating and Implementing Psychologically-Grounded LLM Agents for Diverse Stakeholder Representation,2025,https://doi.org/10.48550/arXiv.2505.18351
+193,Personality Structured Interview for Large Language Model Simulation in Personality Research,2025,https://arxiv.org/abs/2501.15405
+194,Personalized Prediction of Perceived Message Effectiveness Using Large Language Model Based Digital Twins,2026,https://doi.org/10.48550/arXiv.2602.19403
+195,PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits,2023,https://doi.org/10.48550/arXiv.2305.02547
+196,Personality Traits in Large Language Models,2026,https://arxiv.org/abs/2307.00184
+197,Piercing a Methodological Bubble: Large Language Models and the Social Sciences,2026,https://doi.org/10.1007/s40647-026-00473-8
+198,Political Actor Agent: A Framework for Simulating Political Decision-Making with Large Language Models,2024,https://arxiv.org/abs/2502.10265
+199,Population-Aligned Persona Generation for LLM-based Social Simulation,2025,https://arxiv.org/abs/2502.12922
+200,Prediction-Powered Inference Across Many Tasks for AI Evaluation & Social Science Research,2026,https://doi.org/10.48550/arXiv.2605.29249
+201,Prompting Large Language Models for Topic Modeling,2023,https://arxiv.org/abs/2312.09693
+202,Prompts Pearls Imperfections: Comparing ChatGPT and a Human Researcher in Qualitative Data Analysis,2024,https://doi.org/10.1177/10497323241244669
+203,Public opinion dissemination simulation based on large language model multi-agent systems,2026,https://doi.org/10.1038/s41598-026-44206-z
+204,Qualitative Research Methods for Large Language Models: Conducting Semi-Structured Interviews with ChatGPT and BARD on Computer Science Education,2023,https://doi.org/10.3390/informatics10040078
+205,Quantifying the Impact of Large Language Models on Collective Opinion Dynamics,2023,https://arxiv.org/abs/2502.15856
+206,Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information,2024,https://arxiv.org/abs/2402.18144
+207,Rationality and financial risk aversion in large language models: Evidence from a multi-model Holt–Laury experiment,2026,https://doi.org/10.1016/j.jbef.2026.101235
+208,Real world community oriented high-definition social simulation: Combining reinforcement learning and large language models,2025,https://doi.org/10.1016/j.cities.2025.106468
+209,Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods,2025,https://arxiv.org/abs/2505.19402
+210,Reproducibility and credibility in computational social science: Testing the fidelity of GenAI-generated data,2026,https://doi.org/10.1016/j.joitmc.2026.100792
+211,ResearchTown: Simulator of Human Research Community,2024,https://arxiv.org/abs/2412.17767
+212,S3: Social-network Simulation System with Large Language Model-Empowered Agents,2023,https://arxiv.org/abs/2307.14984
+213,SALM: A Multi-Agent Framework for Language Model-Driven Social Network Simulation,2025,https://doi.org/10.48550/arXiv.2505.09081
+214,Scalable Qualitative Coding with LLMs: Chain-of-Thought Reasoning Matches Human Performance in Some Hermeneutic Tasks,2024,https://arxiv.org/abs/2504.04170
+215,SCALE: Towards Collaborative Content Analysis in Social Science with Large Language Models,2025,https://arxiv.org/abs/2309.11074
+216,"Scaling Synthetic Data Creation with 1,000,000,000 Personas",2024,http://arxiv.org/abs/2406.20094
+217,Seeing economic development like a large language model. A methodological approach to the exploration of geographical imaginaries in generative AI,2024,https://doi.org/10.1016/j.geoforum.2024.104175
+218,Sense and Sensitivity: Evaluating the simulation of social dynamics via Large Language Models,2024,https://arxiv.org/abs/2501.04598
+219,"Shifting Power: Leveraging LLMs to Simulate Human Aversion in ABMs of Bilateral Financial Exchanges, A bond market study",2025,https://doi.org/10.48550/arXiv.2503.00320
+220,Shop-R1: Rewarding LLMs to Simulate Human Behavior in Online Shopping via Reinforcement Learning,2025,https://doi.org/10.48550/arXiv.2507.17842
+221,Silicon Samples: A Review and Outlook on Large Language Models Simulating Human Respondents,2026,https://doi.org/10.1016/j.chb.2025.108621
+222,SimuCourt: Building Judicial Decision-Making Agents with Real-World Court Data,2024,https://arxiv.org/abs/2504.18319
+223,Simulating and Experimenting with Social Media Mobilization Using LLM Agents,2025,https://doi.org/10.48550/arXiv.2510.26494
+224,Simulating Human Decision-Making in Ultimatum Games using Large Language Models,2025,https://doi.org/10.1145/3715928.3737473
+225,Simulating Human Opinions with Large Language Models: Opportunities and Challenges for Personalized Survey Data Modeling,2025,https://doi.org/10.1145/3708319.3733685
+226,Simulating Human Society with Large Language Model Agents: City Social Media and Economic System,2024,https://doi.org/10.1145/3589335.3641253
+227,Simulating Human Strategic Behavior: Comparing Single and Multi-agent LLMs,2024,https://arxiv.org/abs/2502.08189
+228,Simulating Influence Dynamics with Large Language Models,2025,https://arxiv.org/abs/2501.04650
+229,Simulating Opinion Dynamics with Networks of LLM-based Agents,2023,https://arxiv.org/abs/2311.09618
+230,Simulating Public Administration Crisis: A Novel Generative Agent-Based Simulation System to Lower Technology Barriers in Social Science Research,2023,https://arxiv.org/abs/2411.06957
+231,Simulating Rumor Spreading in Social Networks using LLM Agents,2025,https://doi.org/10.48550/arXiv.2502.01450
+232,Simulating Social Media Using Large Language Models to Evaluate Alternative News Feed Algorithms,2023,https://arxiv.org/abs/2310.05984
+233,Simulating Social Network with LLM Agents: An Analysis of Information Propagation and Echo Chambers,2024,https://doi.org/10.1007/978-981-96-0178-3_5
+234,Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior,2024,https://arxiv.org/abs/2502.02364
+235,Simulating theory and society: large language models and generative artificial intelligence as new tools for sociological theorizing,2025,https://doi.org/10.1007/s11186-025-09606-6
+236,Simulation of language evolution under regulated social media platforms: a synergistic approach of large language models and genetic algorithms,2026,https://arxiv.org/abs/2501.00076
+237,SimUSER: Simulating User Behavior with Large Language Models for Interactive Recommendation,2025,https://arxiv.org/abs/2304.09528
+238,SLALOM: A Structural Linear Assignment Operator for LLM Human Surrogates,2026,https://arxiv.org/abs/2502.13026
+239,Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations,2023,https://doi.org/10.48550/arXiv.2311.06330
+240,Social Cognition Simulation with Large Language Model-driven Agents,2026,https://doi.org/10.16182/j.issn1004731x.joss.25-0612
+241,Social Scientists on the Role of AI in Research,2025,https://arxiv.org/abs/2503.11911
+242,Social Simulations with Large Language Models Risk a Utopian Illusion,2025,https://arxiv.org/abs/2411.14047
+243,SocioVerse: A World Model for Social Simulation Powered by LLM Agents and A Pool of 10 Million Real-World Users,2025,https://arxiv.org/abs/2501.05489
+244,Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations,2025,https://doi.org/10.48550/arXiv.2502.07068
+245,Start Generating: Harnessing Generative Artificial Intelligence for Sociological Research,2024,https://doi.org/10.1177/07311214241292178
+246,Survey on LLM-Based Social Agents in Game-Theoretic Scenarios,2024,https://arxiv.org/abs/2502.13203
+247,Synthetic ethnography: Field devices for the qualitative study of generative models,2024,https://doi.org/10.1177/20539517241303126
+248,Synthetic Replacements for Human Survey Data? The Perils of Large Language Models,2024,https://doi.org/10.1017/pan.2024.5
+249,Take caution in using LLMs as human surrogates,2025,https://doi.org/10.1038/s42256-024-00913-0
+250,Teaching via LLM-enhanced simulations: Authenticity and barriers to suspension of disbelief,2024,https://doi.org/10.1016/j.iheduc.2024.100990
+251,Testing theories of political persuasion using AI,2025,https://doi.org/10.1073/pnas.2412815122
+252,The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective,2023,https://doi.org/10.2139/ssrn.4650172
+253,The emergence of economic rationality of GPT,2023,https://doi.org/10.1073/pnas.2316205121
+254,The Emergence of Social Science of Large Language Models,2025,https://doi.org/10.1038/s41562-024-01953-6
+255,The Mixed Subjects Design: Treating Large Language Models as Potentially Informative Observations,2025,https://doi.org/10.1177/00491241251326865
+256,The Roots of International Perceptions: Simulating US Attitude Changes Towards China with LLM Agents,2025,https://doi.org/10.48550/arXiv.2508.08837
+257,The Silicon Reasonable Person: Can AI Predict How Ordinary People Judge Reasonableness?,2025,https://doi.org/10.48550/arXiv.2508.02766
+258,The Silicon Society Cookbook: Design Space of LLM-based Social Simulations,2026,https://doi.org/10.48550/arXiv.2605.00197
+259,The threat of analytic flexibility in using large language models to simulate human data: A call to attention,2025,https://doi.org/10.48550/arXiv.2509.13397
+260,The use and methodological reporting of large language models in qualitative research: a scoping review,2026,https://doi.org/10.1186/s12874-026-02913-1
+261,Thematic analysis with open-source generative AI and machine learning: a new method for inductive qualitative codebook development,2026,https://doi.org/10.1057/s41599-026-06508-5
+262,Too Human to Model? Large Language Models and the Limits of Simulating Human Behaviour,2025,https://arxiv.org/abs/2507.06483
+263,TopicGPT: A Prompt-based Topic Modeling Framework,2024,https://arxiv.org/abs/2311.01449
+264,Towards a Design Guideline for RPA Evaluation: A Survey of Large Language Model-Based Role-Playing Agents,2025,https://doi.org/10.48550/arXiv.2502.13012
+265,Towards Coding Social Science Datasets with Language Models,2023,http://arxiv.org/abs/2306.02177
+266,Towards operational validation of LLM-agent social simulations: a replicated study of a Reddit-like technology forum,2026,https://arxiv.org/abs/2507.12587
+267,Towards Valid Student Simulation with Large Language Models,2026,https://arxiv.org/abs/2601.05473
+268,"Twin-2K-500: A dataset for building digital twins of over 2,000 people based on their answers to over 500 questions",2025,https://doi.org/10.48550/arXiv.2505.17479
+269,Unveiling Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation,2024,https://arxiv.org/abs/2502.03453
+270,Updating “The Future of Coding”: Qualitative Coding with Generative Large Language Models,2025,https://doi.org/10.1177/08944393241284154
+271,"User Simulation in the Era of Generative AI: User Modeling, Synthetic Data Generation, and System Evaluation",2025,https://arxiv.org/abs/2501.04410
+272,Using Imperfect Surrogates: A General Framework of Design-based Supervised Learning for Social Science Applications of Large Language Models,2023,https://doi.org/10.1177/00491241251315387
+273,Using Large Language Models for Qualitative Analysis can Introduce Serious Bias,2025,https://doi.org/10.1177/00491241251338246
+274,Using large language models for survey research in communication: opportunities and challenges,2025,https://doi.org/10.1007/s44382-025-00014-z
+275,Using large language models in psychology,2023,https://doi.org/10.1038/s44159-023-00241-5
+276,Using Large Language Models to Create AI Personas for Replication and Prediction of Media Effects: An Empirical Test of 133 Published Experimental Research Findings,2024,https://arxiv.org/abs/2408.16073
+277,Using large language models to generate silicon samples in consumer and marketing research: Challenges opportunities and guidelines,2024,https://doi.org/10.1002/mar.21982
+278,Using Large Language Models to Simulate Human Behavioural Experiments: Port of Mars,2025,https://doi.org/10.48550/arXiv.2506.05555
+279,Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies,2023,https://doi.org/10.48550/arXiv.2208.10264
+280,Validation is the central challenge for generative social simulation: a critical review of LLMs in agent-based modeling,2025,https://doi.org/10.1007/s10462-025-11412-6
+281,Virtual Personas for Language Models via an Anthology of Backstories,2024,https://doi.org/10.48550/arXiv.2407.06576
+282,What Limits LLM-based Human Simulation: LLMs or Our Design?,2025,https://arxiv.org/abs/2501.08579
+283,Whose Opinions Do Language Models Reflect?,2023,https://arxiv.org/abs/2303.17548
+284,Will Scaling Improve Social Simulation with LLMs?,2026,https://arxiv.org/abs/2607.02464
+285,Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma,2025,https://doi.org/10.48550/arXiv.2501.16173
+286,Will Trump Win in 2024? Predicting the US Presidential Election via Multi-step Reasoning with Large Language Models,2024,https://arxiv.org/abs/2411.03321
+287,Wisdom of the silicon crowd: LLM ensemble prediction capabilities rival human crowd accuracy,2024,https://doi.org/10.1126/sciadv.adp1528
+288,Y Social: an LLM-powered Social Media Digital Twin,2024,https://arxiv.org/abs/2408.00818
