@@ -1,4 +1,4 @@
-name: Add GENERATIVESS publication years
+name: Fix GENERATIVESS manifest metadata
 
 on:
   push:
@@ -10,62 +10,40 @@ permissions:
   contents: write
 
 jobs:
-  enrich-years:
+  fix-manifest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Add publication years
+      - name: Rebuild manifest from canonical literature list
         shell: bash
         run: |
           python - <<'PY'
           import csv
           from pathlib import Path
-          groups = {
-            2023: '001,018,021,035,037,042,043,044,052,056,069,071,080,083,096,106,107,109,111,113,115,124,128,130,138,140,145,146,151,152,161,179,191,195,201,204,205,212,229,230,232,239,252,253,265,272,275,279,283',
-            2024: '010,011,013,020,022,023,024,026,028,031,032,038,040,041,045,046,048,051,053,059,063,064,066,072,074,075,076,077,079,082,088,090,093,099,100,105,108,110,114,120,121,122,132,143,153,157,173,174,175,177,178,182,186,187,188,189,190,198,202,206,211,214,216,217,218,222,226,227,233,234,245,246,247,248,250,263,269,276,277,281,286,287,288',
-            2025: '003,004,006,007,012,014,015,019,029,033,036,039,047,050,054,055,058,060,062,065,073,078,081,087,091,092,097,098,102,104,112,117,118,119,123,125,129,131,134,135,136,139,144,147,150,154,156,163,166,168,170,171,180,181,183,184,185,192,193,199,208,209,213,215,219,220,223,224,225,228,231,235,237,241,242,243,244,249,251,254,255,256,257,259,262,264,268,270,271,273,274,278,280,282,285',
-            2026: '002,005,008,009,016,017,025,027,030,034,049,057,061,067,068,070,084,085,086,089,094,095,101,103,116,126,127,133,137,141,142,148,149,155,158,159,160,162,164,165,167,169,172,176,194,196,197,200,203,207,210,221,236,238,240,258,260,261,266,267,284'
-          }
-          years = {pid: year for year, ids in groups.items() for pid in ids.split(',')}
-          assert len(years) == 288
           base = Path('literature')
-
-          main = base/'GENERATIVESS_list.csv'
-          with main.open(encoding='utf-8-sig', newline='') as f:
-              rows = list(csv.DictReader(f))
-          assert len(rows) == 288 and all(r['paper_id'] in years for r in rows)
-          with main.open('w', encoding='utf-8', newline='') as f:
-              w = csv.DictWriter(f, fieldnames=['paper_id','Title','Year','Link'])
+          with (base/'GENERATIVESS_list.csv').open(encoding='utf-8-sig', newline='') as f:
+              master = list(csv.DictReader(f))
+          with (base/'GENERATIVESS_pdf_manifest.csv').open(encoding='utf-8-sig', newline='') as f:
+              old = list(csv.DictReader(f))
+          status = {r['paper_id']: r.get('pdf_status','') for r in old}
+          assert len(master) == 288 and len(status) == 288
+          with (base/'GENERATIVESS_pdf_manifest.csv').open('w', encoding='utf-8', newline='') as f:
+              w = csv.DictWriter(f, fieldnames=['paper_id','Title','Year','Link','pdf_status'])
               w.writeheader()
-              for r in rows:
-                  w.writerow({'paper_id':r['paper_id'],'Title':r['Title'],'Year':years[r['paper_id']],'Link':r['Link']})
-
-          def enrich(path, fields):
-              if not path.exists(): return
-              with path.open(encoding='utf-8-sig', newline='') as f:
-                  rows = list(csv.DictReader(f))
-              with path.open('w', encoding='utf-8', newline='') as f:
-                  w = csv.DictWriter(f, fieldnames=fields)
-                  w.writeheader()
-                  for r in rows:
-                      r['Year'] = years[r['paper_id']]
-                      w.writerow({k:r.get(k,'') for k in fields})
-
-          enrich(base/'GENERATIVESS_pdf_manifest.csv', ['paper_id','Title','Year','Link','pdf_status','pdf_filename','source','resolved_pdf_url','download_note'])
-          enrich(base/'GENERATIVESS_failed_downloads.csv', ['paper_id','Title','Year','Link','download_note'])
-          print({y: sum(v==y for v in years.values()) for y in sorted(groups)})
+              for r in master:
+                  w.writerow({'paper_id':r['paper_id'],'Title':r['Title'],'Year':r['Year'],'Link':r['Link'],'pdf_status':status[r['paper_id']]})
           PY
-      - name: Commit enriched tables
+      - name: Commit manifest fix
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add literature/GENERATIVESS_list.csv literature/GENERATIVESS_pdf_manifest.csv literature/GENERATIVESS_failed_downloads.csv
+          git add literature/GENERATIVESS_pdf_manifest.csv
           if git diff --cached --quiet; then
-            echo 'No changes to commit.'
+            echo 'No changes.'
           else
-            git commit -m 'Add publication year to GENERATIVESS literature tables'
+            git commit -m 'Fix GENERATIVESS manifest metadata'
             git push
           fi
